@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "IT Statistics, Data Science, and Business Analysis",
-            "image": "public/images/courses/course_1.png",
+            "image": "images/courses/course_1.png",
             "description": "This course covers the fundamental statistical methods and data science techniques essential for business analysis. You will learn how to interpret data, apply predictive modeling, and make data-driven decisions using real-world case studies. The course includes hands-on projects with Python and R to ensure practical learning. Additionally, you will explore machine learning basics and how they integrate with business intelligence tools.",
             "benefits": [
                 "Understand core statistical concepts",
@@ -55,7 +55,7 @@
             "total_duration": "4h 45m",
             "instructor": {
                 "name": "Dr. Sarah Williams",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 101
             },
             "reviews": [
@@ -74,7 +74,7 @@
         {
             "id": 2,
             "name": "Bilginer Adobe Illustrator For Graphic Design",
-            "image": "public/images/courses/course_2.png",
+            "image": "images/courses/course_2.png",
             "description": "A comprehensive course designed for aspiring graphic designers who want to master Adobe Illustrator. This course will take you through the essentials of vector graphics, creating stunning illustrations, and designing professional branding materials. You will gain hands-on experience through practical projects and real-world applications. Additionally, you will explore advanced typography techniques and layout design.",
             "benefits": [
                 "Learn Adobe Illustrator tools and techniques",
@@ -125,7 +125,7 @@
             "total_duration": "3h 15m",
             "instructor": {
                 "name": "Emily Clark",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 102
             },
             "reviews": [
@@ -144,7 +144,7 @@
         {
             "id": 3,
             "name": "Advanced UI/UX Design Principles",
-            "image": "public/images/courses/course_3.png",
+            "image": "images/courses/course_3.png",
             "description": "This course dives deep into the principles of UI/UX design, focusing on creating user-friendly interfaces and enhancing user experience. You will learn about wireframing, prototyping, and usability testing. The course also covers advanced topics like responsive design and accessibility.",
             "benefits": [
                 "Master UI/UX design principles",
@@ -195,7 +195,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "John Doe",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 103
             },
             "reviews": [
@@ -214,7 +214,7 @@
         {
             "id": 4,
             "name": "Digital Photography Masterclass",
-            "image": "public/images/courses/course_4.png",
+            "image": "images/courses/course_4.png",
             "description": "This masterclass is designed for photography enthusiasts who want to take their skills to the next level. You will learn about composition, lighting, and post-processing techniques. The course also includes practical assignments to help you apply what you've learned.",
             "benefits": [
                 "Learn advanced photography techniques",
@@ -266,7 +266,7 @@
             "total_duration": "4h 45m",
             "instructor": {
                 "name": "Michael Scott",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 104
             },
             "reviews": [
@@ -285,7 +285,7 @@
         {
             "id": 5,
             "name": "Product Design Fundamentals",
-            "image": "public/images/courses/course_5.png",
+            "image": "images/courses/course_5.png",
             "description": "This course covers the basics of product design, focusing on user-centered design principles. You will learn about the design process, from ideation to prototyping and testing. The course also includes case studies of successful product designs.",
             "benefits": [
                 "Understand user-centered design",
@@ -336,7 +336,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Laura Smith",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 105
             },
             "reviews": [
@@ -355,7 +355,7 @@
         {
             "id": 6,
             "name": "Exclusive Management Techniques",
-            "image": "public/images/courses/course_1.png",
+            "image": "images/courses/course_1.png",
             "description": "This course is designed for managers who want to enhance their leadership skills. You will learn about effective communication, team management, and strategic planning. The course also includes real-world case studies and practical exercises.",
             "benefits": [
                 "Enhance leadership skills",
@@ -407,7 +407,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Robert Johnson",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 106
             },
             "reviews": [
@@ -426,7 +426,7 @@
         {
             "id": 7,
             "name": "Web Development Bootcamp",
-            "image": "public/images/courses/course_2.png",
+            "image": "images/courses/course_2.png",
             "description": "This bootcamp is designed for aspiring web developers. You will learn HTML, CSS, JavaScript, and backend development with Node.js. The course includes hands-on projects to build a portfolio.",
             "benefits": [
                 "Learn HTML, CSS, and JavaScript",
@@ -477,7 +477,7 @@
             "total_duration": "5h 40m",
             "instructor": {
                 "name": "David Wilson",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 107
             },
             "reviews": [
@@ -496,7 +496,7 @@
         {
             "id": 8,
             "name": "Graphic Design with Photoshop",
-            "image": "public/images/courses/course_3.png",
+            "image": "images/courses/course_3.png",
             "description": "This course is designed for aspiring graphic designers who want to master Adobe Photoshop. You will learn about photo editing, digital painting, and creating stunning visuals. The course includes practical projects to build your portfolio.",
             "benefits": [
                 "Master Adobe Photoshop",
@@ -547,7 +547,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Sophia Martinez",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 108
             },
             "reviews": [
@@ -566,7 +566,7 @@
         {
             "id": 9,
             "name": "Advanced Business Analytics",
-            "image": "public/images/courses/course_4.png",
+            "image": "images/courses/course_4.png",
             "description": "This course is designed for professionals who want to deepen their understanding of business analytics. You will learn about data visualization, predictive analytics, and decision-making strategies. The course includes real-world case studies and practical exercises.",
             "benefits": [
                 "Understand data visualization",
@@ -618,7 +618,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "James Brown",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 109
             },
             "reviews": [
@@ -637,7 +637,7 @@
         {
             "id": 10,
             "name": "Creative Arts and Design",
-            "image": "public/images/courses/course_5.png",
+            "image": "images/courses/course_5.png",
             "description": "This course is designed for creative individuals who want to explore various art forms and design techniques. You will learn about drawing, painting, and digital art. The course includes practical projects to showcase your creativity.",
             "benefits": [
                 "Explore various art forms",
@@ -688,7 +688,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Emma Wilson",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 110
             },
             "reviews": [
@@ -707,7 +707,7 @@
         {
             "id": 11,
             "name": "Video Editing with Premiere Pro",
-            "image": "public/images/courses/course_1.png",
+            "image": "images/courses/course_1.png",
             "description": "This course is designed for aspiring video editors who want to master Adobe Premiere Pro. You will learn about video editing techniques, color grading, and audio editing. The course includes practical projects to build your portfolio.",
             "benefits": [
                 "Master Adobe Premiere Pro",
@@ -759,7 +759,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Daniel Martinez",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 111
             },
             "reviews": [
@@ -778,7 +778,7 @@
         {
             "id": 12,
             "name": "Product Management Essentials",
-            "image": "public/images/courses/course_2.png",
+            "image": "images/courses/course_2.png",
             "description": "This course is designed for aspiring product managers. You will learn about product lifecycle, market research, and product strategy. The course includes real-world case studies and practical exercises.",
             "benefits": [
                 "Understand product lifecycle",
@@ -829,7 +829,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Laura Brown",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 112
             },
             "reviews": [
@@ -848,7 +848,7 @@
         {
             "id": 13,
             "name": "Exclusive Leadership Training",
-            "image": "public/images/courses/course_3.png",
+            "image": "images/courses/course_3.png",
             "description": "This course is designed for leaders who want to enhance their leadership skills. You will learn about effective communication, team motivation, and strategic decision-making. The course includes real-world case studies and practical exercises.",
             "benefits": [
                 "Enhance leadership skills",
@@ -900,7 +900,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Robert Wilson",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 113
             },
             "reviews": [
@@ -919,7 +919,7 @@
         {
             "id": 14,
             "name": "Full-Stack Web Development",
-            "image": "public/images/courses/course_4.png",
+            "image": "images/courses/course_4.png",
             "description": "This course is designed for aspiring full-stack developers. You will learn about front-end and back-end development, including HTML, CSS, JavaScript, and Node.js. The course includes hands-on projects to build a portfolio.",
             "benefits": [
                 "Learn front-end development",
@@ -970,7 +970,7 @@
             "total_duration": "5h 40m",
             "instructor": {
                 "name": "David Brown",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 114
             },
             "reviews": [
@@ -989,7 +989,7 @@
         {
             "id": 15,
             "name": "Advanced Graphic Design",
-            "image": "public/images/courses/course_5.png",
+            "image": "images/courses/course_5.png",
             "description": "This course is designed for experienced graphic designers who want to take their skills to the next level. You will learn about advanced design techniques, typography, and branding. The course includes practical projects to build your portfolio.",
             "benefits": [
                 "Master advanced design techniques",
@@ -1040,7 +1040,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Sophia Brown",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 115
             },
             "reviews": [
@@ -1059,7 +1059,7 @@
         {
             "id": 16,
             "name": "Business Strategy and Planning",
-            "image": "public/images/courses/course_1.png",
+            "image": "images/courses/course_1.png",
             "description": "This course is designed for business professionals who want to enhance their strategic planning skills. You will learn about market analysis, competitive strategy, and business planning. The course includes real-world case studies and practical exercises.",
             "benefits": [
                 "Understand market analysis",
@@ -1111,7 +1111,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "James Wilson",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 116
             },
             "reviews": [
@@ -1130,7 +1130,7 @@
         {
             "id": 17,
             "name": "Creative Writing and Storytelling",
-            "image": "public/images/courses/course_2.png",
+            "image": "images/courses/course_2.png",
             "description": "This course is designed for aspiring writers who want to enhance their creative writing and storytelling skills. You will learn about character development, plot structure, and narrative techniques. The course includes practical writing exercises.",
             "benefits": [
                 "Enhance creative writing skills",
@@ -1181,7 +1181,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Emma Brown",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 117
             },
             "reviews": [
@@ -1200,7 +1200,7 @@
         {
             "id": 18,
             "name": "Photography for Beginners",
-            "image": "public/images/courses/course_3.png",
+            "image": "images/courses/course_3.png",
             "description": "This course is designed for beginners who want to learn the basics of photography. You will learn about camera settings, composition, and lighting. The course includes practical assignments to help you apply what you've learned.",
             "benefits": [
                 "Learn camera settings",
@@ -1252,7 +1252,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Daniel Brown",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 118
             },
             "reviews": [
@@ -1271,7 +1271,7 @@
         {
             "id": 19,
             "name": "Product Design and Innovation",
-            "image": "public/images/courses/course_4.png",
+            "image": "images/courses/course_4.png",
             "description": "This course is designed for product designers who want to learn about innovation and design thinking. You will learn about user research, prototyping, and product testing. The course includes real-world case studies and practical exercises.",
             "benefits": [
                 "Understand design thinking",
@@ -1322,7 +1322,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Laura Wilson",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 119
             },
             "reviews": [
@@ -1341,7 +1341,7 @@
         {
             "id": 20,
             "name": "Exclusive Executive Leadership",
-            "image": "public/images/courses/course_5.png",
+            "image": "images/courses/course_5.png",
             "description": "This course is designed for executives who want to enhance their leadership and decision-making skills. You will learn about strategic leadership, organizational behavior, and change management. The course includes real-world case studies and practical exercises.",
             "benefits": [
                 "Enhance leadership skills",
@@ -1393,7 +1393,7 @@
             "total_duration": "4h 40m",
             "instructor": {
                 "name": "Robert Brown",
-                "image": "public/images/courses/instructor_1.png",
+                "image": "images/courses/instructor_1.png",
                 "id": 120
             },
             "reviews": [
