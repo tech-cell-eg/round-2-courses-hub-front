@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "IT Statistics, Data Science, and Business Analysis",
-            "image": "public/images/courses/course_1.png",
+            "image": "images/courses/course_1.png",
             "description": "This course covers the fundamental statistical methods and data science techniques essential for business analysis. You will learn how to interpret data, apply predictive modeling, and make data-driven decisions using real-world case studies. The course includes hands-on projects with Python and R to ensure practical learning. Additionally, you will explore machine learning basics and how they integrate with business intelligence tools.",
             "benefits": [
                 "Understand core statistical concepts",
