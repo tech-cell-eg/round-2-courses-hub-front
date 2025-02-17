@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="flex justify-between md:items-center sm:px- md:px-10 py-3 bg-white relative border-b-1 border-gray-200">
+    <section className="flex justify-between md:items-center px-5 md:px-10 py-3 bg-white relative border-b-1 border-gray-200">
       <h1 className="font-bold text-2xl md:text-3xl lg:text-4xl text-blue-950">edunity</h1>
 
       {/* Desktop Navbar */}
