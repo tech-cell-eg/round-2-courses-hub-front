@@ -1,5 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+a,
+button {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+a:hover,
+button:hover {
+    transform: scale(0.95);
+    opacity: 0.95;
+}
+
+.word-with-circle {
+    display: inline-block;
+    position: relative;
+    background-image: url("../assets/circle.png");
+    background-size: 100% 100%;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    padding-block: 6px;
+    text-transform: capitalize;
 }
