@@ -11,7 +11,6 @@ const App: React.FC = () => {
             <Navbar />
             <Routes>
                 {routes.map((route) => {
-                  
                     return (
                         <Route
                             key={route.path}

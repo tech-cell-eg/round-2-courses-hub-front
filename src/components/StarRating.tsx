@@ -4,9 +4,10 @@ import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 
 type StarRatingProps = {
     rating: number;
+    className?: string;
 };
 
-const StarRating: React.FC<StarRatingProps> = ({ rating }) => {
+const StarRating: React.FC<StarRatingProps> = ({ rating, className }) => {
     const stars = [];
     const fullStars = Math.floor(rating);
     const hasHalfStar = rating % 1 !== 0;
@@ -24,7 +25,7 @@ const StarRating: React.FC<StarRatingProps> = ({ rating }) => {
         stars.push(<FaRegStar key={`empty-${i}`} className="text-[#bec1c5]" />);
     }
 
-    return <div className="flex">{stars}</div>;
+    return <div className={`flex ${className}`}>{stars}</div>;
 };
 
 export default StarRating;
