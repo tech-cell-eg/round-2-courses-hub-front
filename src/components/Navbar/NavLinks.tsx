@@ -60,29 +60,19 @@ function NavLinks() {
             }`}
           >
             {/* Grouping related pages */}
-            <li className="font-semibold">User Pages</li>
             <NavItem href="/instructors">Instructors</NavItem>
             <NavItem href="/auth/student-registration">Student Registration</NavItem>
             <NavItem href="/auth/instructor-registration">Instructor Registration</NavItem>
             <NavItem href="/auth/login">Login</NavItem>
             <NavItem href="/auth/register">Register</NavItem>
 
-            <li className="font-semibold">Store & Events</li>
-            <NavItem href="/education-shop">Shop</NavItem>
             <NavItem href="/cart">Cart</NavItem>
             <NavItem href="/checkout">Checkout</NavItem>
             <NavItem href="/events">Events</NavItem>
 
-            <li className="font-semibold">Information</li>
             <NavItem href="/pricing">Pricing</NavItem>
             <NavItem href="/faq">FAQ</NavItem>
             <NavItem href="/testimonials">Testimonials</NavItem>
-            <NavItem href="/blog">Blog</NavItem>
-            <NavItem href="/contact-us">Contact</NavItem>
-
-            <li className="font-semibold">Miscellaneous</li>
-            <NavItem href="/blog">Blog</NavItem>
-            <NavItem href="/contact-us">Contact Us</NavItem>
           </ul>
         </li>
 
