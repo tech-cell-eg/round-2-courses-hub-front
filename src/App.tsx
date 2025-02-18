@@ -11,8 +11,6 @@ const App: React.FC = () => {
             <Navbar />
             <Routes>
                 {routes.map((route) => {
-                    const pageName =
-                        route.path === "/" ? "Home" : route.path.split("/")[1]; // Example for extracting page name
                     return (
                         <Route
                             key={route.path}
@@ -20,7 +18,7 @@ const App: React.FC = () => {
                             element={
                                 route.path !== "/" ? (
                                     <>
-                                        <Header pageName={pageName} />
+                                        <Header pageName={route.pageName} />
                                         <section className="px-5 md:px-20 lg:px-30">
                                             <route.component />
                                         </section>
