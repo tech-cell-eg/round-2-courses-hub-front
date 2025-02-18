@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ILink } from "../types/types";
 
-export default function SubTitle({ to, children, className }: ILink) {
+export default function SubTitle({ to="", children, className }: ILink) {
     return (
         <Link
             to={to}

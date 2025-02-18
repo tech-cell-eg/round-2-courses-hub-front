@@ -3,15 +3,22 @@ import { ILink } from "../types/types";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function LinkWithArrow({
-    to,
+    to = "",
+    href = undefined,
+    clickHandler,
     children,
     className,
     showArrow,
     fullRounded,
+    disabled,
+    type: Type = Link,
 }: ILink) {
     return (
-        <Link
+        <Type
             to={to}
+            href={href}
+            onClick={clickHandler}
+            disabled={disabled}
             className={`${className} bg-[#704FE6] text-white pl-6 ${
                 !showArrow && "pr-6"
             } w-fit ${
@@ -24,6 +31,6 @@ export default function LinkWithArrow({
                     <FaArrowRightLong className="text-xl" />
                 </span>
             )}
-        </Link>
+        </Type>
     );
 }

@@ -5,9 +5,18 @@ import LinkWithArrow from "./LinkWithArrow";
 import StarRating from "./StarRating";
 import { IoIosPaper, IoIosClock, IoMdPerson } from "react-icons/io";
 
-export default function CourseCard({ course }: { course: ICourse }) {
+export default function CourseCard({
+    course,
+    idName,
+}: {
+    course: ICourse;
+    idName?: string;
+}) {
     return (
-        <div className="p-3 rounded-md border border-dashed border-[#704FE6] bg-[##F4F5F8] hover:scale-[101%] shadow-lg transition-all duration-300 flex flex-col">
+        <div
+            className="p-3 rounded-md border border-dashed border-[#704FE6] bg-[##F4F5F8] hover:scale-[101%] shadow-lg transition-all duration-300 flex flex-col"
+            id={idName}
+        >
             <div className="w-full relative md:h-54 h-70 overflow-hidden rounded-md">
                 <img
                     src={course.image}

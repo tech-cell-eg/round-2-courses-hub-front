@@ -1,11 +1,16 @@
 import { ReactNode } from "react";
+import { Link } from "react-router-dom";
 
 export interface ILink {
-    to: string;
+    to?: string;
+    href?: string | undefined;
+    clickHandler?: () => void;
     children: ReactNode;
     className?: string;
     showArrow?: boolean;
     fullRounded?: boolean;
+    type?: "button" | "a" | typeof Link;
+    disabled?: boolean;
 }
 
 interface Rating {
