@@ -34,7 +34,7 @@ const Courses = ({ showMore = true }: { showMore?: boolean }) => {
             className={`bg-cover bg-top bg-no-repeat py-20`}
             style={{ backgroundImage: `url(${BackgroundImage})` }}
         >
-            <SubTitle to="courses">Top Popular Course</SubTitle>
+            <SubTitle to="/courses/">Top Popular Course</SubTitle>
             <div className="mt-6 flex md:flex-row flex-col justify-between md:items-center">
                 <h2 className="sm:text-4xl text-2xl font-bold text-[#0E2A46]">
                     Edunity Course{" "}
