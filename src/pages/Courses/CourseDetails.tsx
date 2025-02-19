@@ -17,6 +17,10 @@ const CourseDetails = () => {
         const course = data.courses.find((course) => `${course.id}` === id);
         if (!course) navigate("/404/");
         setCourse(course);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
     }, [id, navigate]);
 
     const handleTap = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -75,7 +79,7 @@ const CourseDetails = () => {
                     <button
                         data-tap={0}
                         onClick={handleTap}
-                        className={`px-4 py-2 capitalize ${
+                        className={`px-4 py-2 capitalize scale ${
                             tap === 0
                                 ? "bg-[#7768E5] text-white"
                                 : "bg-[#F0F4F8] text-[#0E2A46]"
@@ -86,7 +90,7 @@ const CourseDetails = () => {
                     <button
                         data-tap={1}
                         onClick={handleTap}
-                        className={`px-4 py-2 capitalize ${
+                        className={`px-4 py-2 capitalize scale ${
                             tap === 1
                                 ? "bg-[#7768E5] text-white"
                                 : "bg-[#F0F4F8] text-[#0E2A46]"
@@ -97,7 +101,7 @@ const CourseDetails = () => {
                     <button
                         data-tap={2}
                         onClick={handleTap}
-                        className={`px-4 py-2 capitalize ${
+                        className={`px-4 py-2 capitalize scale ${
                             tap === 2
                                 ? "bg-[#7768E5] text-white"
                                 : "bg-[#F0F4F8] text-[#0E2A46]"
@@ -108,7 +112,7 @@ const CourseDetails = () => {
                     <button
                         data-tap={3}
                         onClick={handleTap}
-                        className={`px-4 py-2 capitalize ${
+                        className={`px-4 py-2 capitalize scale ${
                             tap === 3
                                 ? "bg-[#7768E5] text-white"
                                 : "bg-[#F0F4F8] text-[#0E2A46]"
@@ -185,7 +189,7 @@ const CourseDetails = () => {
                                     </h4>
                                     <Link
                                         to={`/instructors/${course?.instructor.id}`}
-                                        className="text-[#7768E5] hover:underline"
+                                        className="text-[#7768E5] hover:underline scale"
                                     >
                                         Go to Instructor Page
                                     </Link>
@@ -257,7 +261,7 @@ const CourseDetails = () => {
 
                 <LinkWithArrow
                     to="#"
-                    className="capitalize w-full flex justify-center mb-5"
+                    className="capitalize w-full flex justify-center mb-5 scale"
                 >
                     Buy now
                 </LinkWithArrow>

@@ -74,7 +74,7 @@ export default function CourseCard({
                 <div className="flex items-center justify-between gap-2">
                     <Link
                         to={`/instructors/${course.instructor.id}`}
-                        className="flex items-center gap-2"
+                        className="flex items-center gap-2 scale"
                     >
                         <div className="w-[34px] h-[34px] rounded-full overflow-hidden border-2 border-[#704FE6]">
                             <img
@@ -93,7 +93,7 @@ export default function CourseCard({
                     <LinkWithArrow
                         to={`/courses/${course.id}`}
                         fullRounded
-                        className="!px-8"
+                        className="!px-8 scale"
                     >
                         Enroll →
                     </LinkWithArrow>
