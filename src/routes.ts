@@ -9,7 +9,7 @@ import Pricing from "./pages/Pricing";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Testimonial from "./pages/Testimonial";
-import FAQ from "./pages/FAQ";
+import FAQ from "./pages/FAQ/FAQ";
 import Blog from "./pages/Blog/Blog";
 import BlogDetails from "./pages/Blog/BlogDetails";
 import BlogSidebar from "./pages/Blog/BlogSidebar";
