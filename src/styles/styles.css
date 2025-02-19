@@ -3,8 +3,8 @@ button:not(:disabled) {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-a:hover,
-button:not(:disabled):hover {
+a.scale:hover,
+button.scale:not(:disabled):hover {
     transform: scale(0.95);
     opacity: 0.95;
 }
