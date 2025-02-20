@@ -15,8 +15,8 @@ function MobileNavbar({ closeMenu }: MobileNavbarProps) {
         <NavItem href="/about-us">About</NavItem>
         <NavItem href="/courses">Courses</NavItem>
         <NavItem href="/categories">Pages</NavItem>
-        <NavItem href="/categories">Blog</NavItem>
-        <NavItem href="/contact">Contact</NavItem>
+        <NavItem href="/blog">Blog</NavItem>
+        <NavItem href="/contact-us">Contact</NavItem>
       </ul>
     </div>
   );
