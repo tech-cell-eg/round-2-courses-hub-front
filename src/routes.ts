@@ -1,34 +1,34 @@
-import Home from "./pages/Home";
-import Courses from "./pages/Courses/Courses";
-import CourseDetails from "./pages/Courses/CourseDetails";
-import Categories from "./pages/Categories/Categories";
-import CategoryDesc from "./pages/Categories/CategoryDesc";
-import Instructors from "./pages/Instructors/Instructors";
-import InstructorProfile from "./pages/Instructors/InstructorProfile";
-import Pricing from "./pages/Pricing";
-import AboutUs from "./pages/AboutUs";
-import ContactUs from "./pages/ContactUs";
-import Testimonial from "./pages/Testimonial";
-import FAQ from "./pages/FAQ/FAQ";
-import Blog from "./pages/Blog/Blog";
-import BlogDetails from "./pages/Blog/BlogDetails";
-import BlogSidebar from "./pages/Blog/BlogSidebar";
-import EducationShop from "./pages/EducationShop/EducationShop";
-import ShopDetails from "./pages/EducationShop/ShopDetails";
-import CartPage from "./pages/EducationShop/CartPage";
-import Checkout from "./pages/EducationShop/Checkout";
-import StudentRegistration from "./pages/Auth/StudentRegistration";
-import InstructorRegistration from "./pages/Auth/InstructorRegistration";
-import Login from "./pages/Auth/Login";
-import Register from "./pages/Auth/Register";
-import NotFound from "./pages/NotFound";
-import Events from "./pages/Events/Event";
-import EventDetails from "./pages/Events/EventDetails";
+import Home from './pages/Home';
+import Courses from './pages/Courses/Courses';
+import CourseDetails from './pages/Courses/CourseDetails';
+import Categories from './pages/Categories/Categories';
+import CategoryDesc from './pages/Categories/CategoryDesc';
+import Instructors from './pages/Instructors/Instructors';
+import InstructorProfile from './pages/Instructors/InstructorProfile';
+import Pricing from './pages/Pricing';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
+import Testimonial from './pages/Testimonial';
+import FAQ from './pages/FAQ/FAQ';
+import Blog from './pages/Blog/Blog';
+import BlogDetails from './pages/Blog/BlogDetails';
+import BlogSidebar from './pages/Blog/BlogSidebar';
+import EducationShop from './pages/EducationShop/EducationShop';
+import ShopDetails from './pages/EducationShop/ShopDetails';
+import CartPage from './pages/EducationShop/CartPage';
+import Checkout from './pages/EducationShop/Checkout';
+import StudentRegistration from './pages/Auth/StudentRegistration';
+import InstructorRegistration from './pages/Auth/InstructorRegistration';
+import Login from './pages/Auth/Login';
+import Register from './pages/Auth/Register';
+import NotFound from './pages/NotFound';
+import Events from './pages/Events/Events';
+import EventDetails from './pages/Events/EventDetails';
 
 interface Route {
-    path: string;
-    component: React.FC;
-    pageName: string;
+  path: string;
+  component: React.FC;
+  pageName: string;
 }
 
 export const routes: Route[] = [
@@ -83,4 +83,5 @@ export const routes: Route[] = [
     { path: "/events/:id", component: EventDetails, pageName: "Event Details" },
     { path: "*", component: NotFound, pageName: "Not Found" },
     { path: "404", component: NotFound, pageName: "Not Found" },
+
 ];
