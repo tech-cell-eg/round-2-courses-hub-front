@@ -22,7 +22,7 @@ import InstructorRegistration from "./pages/Auth/InstructorRegistration";
 import Login from "./pages/Auth/Login";
 import Register from "./pages/Auth/Register";
 import NotFound from "./pages/NotFound";
-import Events from "./pages/Events/Event";
+import Events from "./pages/Events/Events";
 import EventDetails from "./pages/Events/EventDetails";
 
 interface Route {
