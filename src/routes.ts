@@ -39,7 +39,7 @@ export const routes: Route[] = [
         component: CourseDetails,
         pageName: "Course Details",
     },
-    { path: "/categories", component: Categories, pageName: "Categories" },
+    { path: "/categories", component: Categories, pageName: "Services" },
     {
         path: "/categories/:id",
         component: CategoryDesc,
