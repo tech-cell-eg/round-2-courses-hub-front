@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
+import { IconType } from "react-icons";
 
 export interface ILink {
     to?: string;
@@ -63,4 +64,21 @@ export interface ICourse {
 
 export interface ICoursesData {
     courses: ICourse[];
+}
+
+export interface ICategory {
+    id: number;
+    name: string;
+    definition: string;
+    icon: IconType;
+    image: string;
+    videoLink: string;
+    longDescription: string;
+    shortDescription: string;
+    requirements: string;
+    whatYouWillLearn: string;
+    careerOpportunities: string;
+    tags: string[];
+    color: string;
+    backgroundColor: string;
 }
