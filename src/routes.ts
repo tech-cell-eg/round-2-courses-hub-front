@@ -64,7 +64,7 @@ export const routes: Route[] = [
         component: EducationShop,
         pageName: "Education Shop",
     },
-    { path: "/shop/:id", component: ShopDetails, pageName: "Shop Details" },
+    { path: "/education-shop/:id", component: ShopDetails, pageName: "Shop Details" },
     { path: "/cart", component: CartPage, pageName: "Cart" },
     { path: "/checkout", component: Checkout, pageName: "Checkout" },
     {

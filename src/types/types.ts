@@ -105,6 +105,7 @@ export interface InstructorProps {
   img: string;
 }
 
+// instructor registration 
 export interface InstructorRegistrationProps {
   email: string;
   password: string;
@@ -121,6 +122,15 @@ export interface InstructorRegistrationProps {
   degree: string;
   studyField: string;
   degreeSought: string;
-
-
 }
+
+// shopping card
+export interface ShoppCardProps {
+  id: number;
+  img: string;
+  name: string;
+  currentPrice: string;
+  lastPrice: string;
+  discount: string;
+rating: number;
+}     
