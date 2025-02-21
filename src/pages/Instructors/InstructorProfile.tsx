@@ -24,7 +24,7 @@ const InstructorProfile = () => {
                     {/* Social Icons */}
                     <div className="flex gap-3 py-5 px-3 items-center">
                         {[FaFacebookF, FaTwitter, FaSkype, FaLinkedinIn].map((Icon, idx) => (
-                            <div key={idx} className="w-[45px] h-[45px] bg-white rounded-full flex items-center justify-center shadow-md">
+                            <div key={idx} className="w-[45px] h-[45px] bg-white rounded-full flex items-center justify-center shadow-md cursor-pointer">
                                 <Icon />
                             </div>
                         ))}
