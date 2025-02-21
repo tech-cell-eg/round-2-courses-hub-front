@@ -67,30 +67,12 @@ export interface ICoursesData {
   courses: ICourse[];
 }
 
-// events
-export interface EventProps {
-  id: number;
-  title: string;
-  location: string;
-  time: string;
-  description: string;
-  day: string;
-  month: string;
-}
-
-// instructor
-export interface InstructorProps {
-  id: string;
-  name: string;
-  job: string;
-  img: string;
-}
 
 export interface ICategory {
-    id: number;
-    name: string;
-    definition: string;
-    icon: IconType;
+  id: number;
+  name: string;
+  definition: string;
+  icon: IconType;
     image: string;
     videoLink: string;
     longDescription: string;
@@ -101,4 +83,44 @@ export interface ICategory {
     tags: string[];
     color: string;
     backgroundColor: string;
+  }
+
+
+  // events
+export interface EventProps {
+  id: number;
+  title: string;
+  location: string;
+  time: string;
+  description: string;
+  day: string;
+  month: string;
+}
+    
+    // instructor
+export interface InstructorProps {
+  id: string;
+  name: string;
+  job: string;
+  img: string;
+}
+
+export interface InstructorRegistrationProps {
+  email: string;
+  password: string;
+  confirmPassword: string;
+  firstName: string;
+  birthDate: string;
+  nationality: string;
+  address1: string;
+  country: string;
+  city: string;
+  postcode?: string;
+  phone: string;
+  beginStudies: string;
+  degree: string;
+  studyField: string;
+  degreeSought: string;
+
+
 }
