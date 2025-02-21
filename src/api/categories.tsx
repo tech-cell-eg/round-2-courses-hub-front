@@ -9,34 +9,20 @@ import { MdDesignServices, MdVideoCameraBack } from "react-icons/md";
 import { RiMarkPenFill } from "react-icons/ri";
 import { GiClothes } from "react-icons/gi";
 
-import { IconType } from "react-icons";
+import { ICategory } from "../types/types";
 
-type Category = {
-    id: number;
-    name: string;
-    definition: string;
-    icon: IconType;
-    image: string;
-    videoLink: string;
-    longDescription: string;
-    shortDescription: string;
-    requirements: string;
-    whatYouWillLearn: string;
-    careerOpportunities: string;
-    tags: string[];
-    color: string;
-    backgroundColor: string;
-};
+import CategoryImage from "../assets/category_image.png";
 
-const categories: Category[] = [
+const categories: ICategory[] = [
     {
         id: 1,
         name: "Business Management",
         definition:
             "Business management involves planning, organizing, and overseeing business operations to achieve organizational goals.",
         icon: FaBusinessTime,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example1",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "Business management focuses on strategies for effective leadership, resource allocation, and decision-making to drive business success.",
         shortDescription: "Planning and organizing business operations.",
@@ -56,8 +42,9 @@ const categories: Category[] = [
         definition:
             "Arts & Design involves creating visual and creative works to express ideas and emotions.",
         icon: FaPalette,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example2",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "Arts & Design focuses on creativity, aesthetics, and visual communication through various mediums like painting, sculpture, and digital art.",
         shortDescription: "Creating visual and creative works.",
@@ -76,8 +63,9 @@ const categories: Category[] = [
         definition:
             "Development involves creating software, applications, and systems to solve problems and improve efficiency.",
         icon: FaCode,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example3",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "Development focuses on coding, debugging, and deploying software solutions for various platforms and industries.",
         shortDescription: "Building software and applications.",
@@ -96,8 +84,9 @@ const categories: Category[] = [
         definition:
             "UI/UX Design involves creating user-friendly and visually appealing interfaces for digital products.",
         icon: FaUserCircle,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example4",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "UI/UX Design focuses on understanding user behavior, creating wireframes, and designing interfaces that enhance user experience.",
         shortDescription: "Designing user-friendly digital interfaces.",
@@ -116,8 +105,9 @@ const categories: Category[] = [
         definition:
             "Graphic Design involves creating visual content to communicate messages effectively.",
         icon: MdDesignServices,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example5",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "Graphic Design focuses on typography, color theory, and layout design to create visually appealing content for print and digital media.",
         shortDescription: "Creating visual content for communication.",
@@ -142,8 +132,9 @@ const categories: Category[] = [
         definition:
             "Digital Marketing involves promoting products or services using digital channels like social media, email, and search engines.",
         icon: RiMarkPenFill,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example6",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "Digital Marketing focuses on strategies like SEO, content marketing, and social media advertising to reach and engage target audiences.",
         shortDescription: "Promoting products or services online.",
@@ -163,8 +154,9 @@ const categories: Category[] = [
         definition:
             "Exclusive Man focuses on personal development, style, and leadership for men.",
         icon: GiClothes,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example7",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "Exclusive Man provides guidance on personal branding, fashion, and leadership skills to help men excel in their personal and professional lives.",
         shortDescription: "Personal development and style for men.",
@@ -188,8 +180,9 @@ const categories: Category[] = [
         definition:
             "Product Design involves creating functional and aesthetically pleasing products for users.",
         icon: MdDesignServices,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example8",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "Product Design focuses on understanding user needs, prototyping, and designing products that are both functional and visually appealing.",
         shortDescription: "Designing user-centered products.",
@@ -208,8 +201,9 @@ const categories: Category[] = [
         definition:
             "Video & Photography involves capturing and editing visual content for various purposes.",
         icon: MdVideoCameraBack,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example9",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "Video & Photography focuses on storytelling through visual media, including techniques for shooting, editing, and post-production.",
         shortDescription: "Creating visual stories through video and photos.",
@@ -228,8 +222,9 @@ const categories: Category[] = [
         definition:
             "Mobile Application Development involves creating apps for smartphones and tablets.",
         icon: FaMobileAlt,
-        image: "",
-        videoLink: "https://www.youtube.com/watch?v=example10",
+        image: CategoryImage,
+        videoLink:
+            "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
             "Mobile Application Development focuses on building apps for iOS and Android platforms using programming languages like Swift, Kotlin, or React Native.",
         shortDescription: "Building apps for mobile devices.",
