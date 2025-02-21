@@ -1,17 +1,8 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosTime } from "react-icons/io";
+import { EventProps } from "../../types/types.ts"
 
-interface EventType {
-  id: number;
-  title: string;
-  location: string;
-  time: string;
-  description: string;
-  day: string;
-  month: string;
-}
-
-const Event = ({ event }: { event: EventType }) => {
+const Event = ({ event }: { event: EventProps }) => {
   return (
     <div className="flex flex-col justify-between gap-5 p-4 bg-[rgba(243,245,247,1)] rounded-lg shadow-lg cursor-pointer relative">
       <div className="absolute top-8 right-8 w-[80px] h-[80px] flex flex-col items-center justify-center 

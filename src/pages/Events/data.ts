@@ -1,12 +1,4 @@
-interface EventProps {
-  id: number;
-  title: string;
-  location: string;
-  time: string;
-  description: string;
-  day: string;
-  month: string;
-}
+import { EventProps} from"../../types/types.ts"
 
 export const eventDetails: EventProps[] = [
   {

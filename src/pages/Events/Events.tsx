@@ -3,16 +3,7 @@ import { Link } from "react-router-dom";
 
 import { Outlet } from "react-router-dom";
 import { eventDetails } from "./data";
-
-interface EventProps {
-  id: number;
-  title: string;
-  location: string;
-  time: string;
-  description: string;
-  day: string;
-  month: string;
-}
+import { EventProps } from "../../types/types.ts";
 
 
 const Events = () => {
