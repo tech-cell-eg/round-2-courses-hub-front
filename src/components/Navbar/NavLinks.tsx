@@ -66,6 +66,7 @@ function NavLinks() {
             <NavItem href="/auth/login">Login</NavItem>
             <NavItem href="/auth/register">Register</NavItem>
 
+            <NavItem href="/education-shop">Shop</NavItem>
             <NavItem href="/cart">Cart</NavItem>
             <NavItem href="/checkout">Checkout</NavItem>
             <NavItem href="/events">Events</NavItem>
