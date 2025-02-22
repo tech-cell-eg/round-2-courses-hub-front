@@ -70,7 +70,7 @@ const plans: IPlan[] = [
 
 const Pricing = () => {
     return (
-        <div className="py-20 flex md:flex-row flex-col xl:gap-10 gap-2 justify-between">
+        <div className="py-20 flex lg:flex-row flex-col xl:gap-10 lg:gap-2 gap-20 justify-between lg:items-stretch items-center">
             {plans.map((plan, index) => (
                 <PricingCard
                     key={index}
