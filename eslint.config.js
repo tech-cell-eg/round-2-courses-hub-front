@@ -18,11 +18,12 @@ export default tseslint.config(
       'react-refresh': reactRefresh,
     },
     rules: {
+      'prettier/prettier': ['error', { tabWidth: 2 }],
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
     },
-  },
-)
+  }
+);
