@@ -3,10 +3,7 @@ import { shoppingCardsDetails } from "./data";
 import { FaFacebookF, FaInstagram, FaTwitter, FaPinterestP } from "react-icons/fa";
 import AddReveiwForm from "./AddReveiwForm";
 import { ShoppCardProps } from "../../types/types";
-import { useState } from "react";
 import { useCart } from "../../context/CartContext";
-
-
 
 // First Section (Product Details)
 const ProductDetails = ({ shopCard }: { shopCard: ShoppCardProps }) => {
@@ -18,15 +15,20 @@ const ProductDetails = ({ shopCard }: { shopCard: ShoppCardProps }) => {
     const quantity = cartItem?.quantity || 0;
 
     const handleAddToCart = () => {
-        addToCart({
-            id: shopCard.id,
-            name: shopCard.name,
-            price: shopCard.currentPrice,
-            img: shopCard.img,
-            quantity: 1,
-            totalItemPrice: shopCard.currentPrice,
-        });
+        if (cartItem) {
+            increaseQuantity(shopCard.id);
+        } else {
+            addToCart({
+                id: shopCard.id,
+                name: shopCard.name,
+                price: shopCard.currentPrice,
+                img: shopCard.img,
+                quantity: 1,
+                totalItemPrice: shopCard.currentPrice,
+            });
+        }
     };
+
 
     return (
         <div className="flex flex-col md:flex-row gap-10">
@@ -56,11 +58,12 @@ const ProductDetails = ({ shopCard }: { shopCard: ShoppCardProps }) => {
                         <span className="px-4">{quantity}</span>
                         <button
                             type="button"
-                            onClick={() => { increaseQuantity(shopCard.id); handleAddToCart(); }}
+                            onClick={handleAddToCart} 
                             className="bg-gray-50 py-1 px-3 border-l"
                         >
                             +
                         </button>
+
                     </div>
                     <Link
                         to={`/cart`}

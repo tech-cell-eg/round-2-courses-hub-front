@@ -33,7 +33,7 @@ function ShoppingCard({ card }: { card: ShoppCardProps }) {
 
         {/* Button */}
         <Link
-          to={``}
+          to={`/education-shop/${card.id}`}
           className="bg-purple-50 px-3 py-3 rounded-lg text-purple-500 text-center font-bold text-lg mt-auto"
         >
           Shop Now

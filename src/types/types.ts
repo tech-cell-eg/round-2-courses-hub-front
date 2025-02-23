@@ -128,7 +128,7 @@ export interface ShoppCardProps {
   img: string;
   name: string;
   currentPrice: number;
-  lastPrice: string;
+  lastPrice: number;
   discount: string;
   rating: number;
 }
