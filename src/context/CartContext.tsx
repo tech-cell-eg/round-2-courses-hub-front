@@ -14,7 +14,7 @@ interface CartContextType {
   addToCart: (item: CartItem) => void;
   increaseQuantity: (id: number) => void;
   decreaseQuantity: (id: number) => void;
-  totalPrice: number;
+  totalCartPrice: number;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -75,15 +75,19 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
             }
             : item
         )
-        .filter((item) => item.quantity > 0) // Remove item if quantity reaches 0
+        .filter((item) => item.quantity > 0)
+      // Remove item if quantity reaches 0
     );
   };
 
   // Calculate Total Price
-  const totalPrice = cart.reduce((acc, item) => acc + item.totalItemPrice, 0);
+  const totalCartPrice = cart.reduce((total, item) => {
+    return total + (item.totalItemPrice || 0);
+  }, 0);
+
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, increaseQuantity, decreaseQuantity, totalPrice }}>
+    <CartContext.Provider value={{ cart, addToCart, increaseQuantity, decreaseQuantity, totalCartPrice }}>
       {children}
     </CartContext.Provider>
   );

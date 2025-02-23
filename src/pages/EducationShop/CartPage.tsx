@@ -1,19 +1,13 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { useCart } from "../../context/CartContext";
 import AddCouponForm from "./AddCouponForm";
 
 const CartPage = () => {
-    const { increaseQuantity, decreaseQuantity, cart } = useCart();
-    // Calculate Total Price
+    const { increaseQuantity, decreaseQuantity, cart, totalCartPrice } = useCart();
+    console.log("total price", totalCartPrice);
+    console.log("items", cart);
 
-    const [totalPrice, setTotalPrice] = useState(0);
-
-    useEffect(() => {
-        const newTotalPrice = cart.reduce((acc, item) => acc + item.totalItemPrice, 0);
-        setTotalPrice(newTotalPrice);
-    }, [cart]);
 
     return (
         <div className="p-4 flex flex-col gap-8">
@@ -76,11 +70,11 @@ const CartPage = () => {
                     <div className=" border-1 border-gray-300 text-gray-500">
                         <div className="border-b-1 border-gray-300 flex justify-between py-2 px-4">
                             <p>Subtotal</p>
-                            <span>{totalPrice}</span>
+                            <span>{totalCartPrice}</span>
                         </div>
                         <div className="flex justify-between py-2 px-4">
                             <p>Total</p>
-                            <span>{totalPrice}</span>
+                            <span>{totalCartPrice}</span>
                         </div>
                     </div>
                     <Link to={`/checkout`} className="bg-purple-500 w-fit hover:bg-purple-600 text-white uppercase py-3 px-6 rounded-sm upprcase">proceed to checkout</Link>
