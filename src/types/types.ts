@@ -1,7 +1,6 @@
-import { ReactNode } from "react";
-import { Link } from "react-router-dom";
-import { IconType } from "react-icons"; 
-
+import { ReactNode } from 'react';
+import { Link } from 'react-router-dom';
+import { IconType } from 'react-icons';
 
 export interface ILink {
   to?: string;
@@ -13,6 +12,7 @@ export interface ILink {
   fullRounded?: boolean;
   type?: 'button' | 'a' | typeof Link;
   disabled?: boolean;
+  reverseIcon?: boolean;
 }
 
 interface Rating {
@@ -67,26 +67,24 @@ export interface ICoursesData {
   courses: ICourse[];
 }
 
-
 export interface ICategory {
   id: number;
   name: string;
   definition: string;
   icon: IconType;
-    image: string;
-    videoLink: string;
-    longDescription: string;
-    shortDescription: string;
-    requirements: string;
-    whatYouWillLearn: string;
-    careerOpportunities: string;
-    tags: string[];
-    color: string;
-    backgroundColor: string;
-  }
+  image: string;
+  videoLink: string;
+  longDescription: string;
+  shortDescription: string;
+  requirements: string;
+  whatYouWillLearn: string;
+  careerOpportunities: string;
+  tags: string[];
+  color: string;
+  backgroundColor: string;
+}
 
-
-  // events
+// events
 export interface EventProps {
   id: number;
   title: string;
@@ -96,8 +94,8 @@ export interface EventProps {
   day: string;
   month: string;
 }
-    
-    // instructor
+
+// instructor
 export interface InstructorProps {
   id: string;
   name: string;
@@ -105,7 +103,7 @@ export interface InstructorProps {
   img: string;
 }
 
-// instructor registration 
+// instructor registration
 export interface InstructorRegistrationProps {
   email: string;
   password: string;
@@ -132,5 +130,5 @@ export interface ShoppCardProps {
   currentPrice: string;
   lastPrice: string;
   discount: string;
-rating: number;
-}     
+  rating: number;
+}

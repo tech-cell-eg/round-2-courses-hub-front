@@ -142,7 +142,9 @@ const ContactUs = () => {
 
         <form className="lg:w-[45%] w-full" onSubmit={formik.handleSubmit}>
           <label className="flex flex-col mb-4 gap-1">
-            <span className="font-bold">Name*</span>
+            <span className="font-bold">
+              Name <span className="text-red-400">*</span>
+            </span>
             <input
               type="text"
               placeholder="Name"
@@ -158,7 +160,9 @@ const ContactUs = () => {
           </label>
 
           <label className="flex flex-col mb-4 gap-1">
-            <span className="font-bold">Email Address*</span>
+            <span className="font-bold">
+              Email Address <span className="text-red-400">*</span>
+            </span>
             <input
               type="email"
               name="email"
@@ -174,7 +178,9 @@ const ContactUs = () => {
           </label>
 
           <label className="flex flex-col mb-4 gap-1">
-            <span className="font-bold">Phone*</span>
+            <span className="font-bold">
+              Phone <span className="text-red-400">*</span>
+            </span>
             <input
               type="tel"
               name="phone"
@@ -190,7 +196,9 @@ const ContactUs = () => {
           </label>
 
           <label className="flex flex-col mb-4 gap-1">
-            <span className="font-bold">Subject*</span>
+            <span className="font-bold">
+              Subject <span className="text-red-400">*</span>
+            </span>
             <input
               type="text"
               name="subject"
