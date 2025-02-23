@@ -14,7 +14,7 @@ const AboutUs = () => {
                     <div className="relative">
                         <img src="/about1.png" alt="about img" />
                         <div className="absolute top-0 left-0 w-[100px] h-[100px] transform translate-y-[-70%] translate-x-[-70%]">
-                            <img src="/about0.png" alt="overlay img" />
+                            <img src="/about0.png" alt="overlay img" className="hidden md:block"/>
                         </div>
                     </div>
                     <div className="flex flex-col gap-5">
