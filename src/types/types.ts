@@ -105,22 +105,28 @@ export interface InstructorProps {
 
 // instructor registration
 export interface InstructorRegistrationProps {
+  first_name: string;
+  last_name: string;
   email: string;
-  password: string;
-  confirmPassword: string;
-  firstName: string;
-  birthDate: string;
+  phone: string;
+  gender: string;
+  birth_date: string;
   nationality: string;
-  address1: string;
   country: string;
   city: string;
-  postcode?: string;
-  phone: string;
-  beginStudies: string;
-  degree: string;
-  studyField: string;
-  degreeSought: string;
+  first_address: string;
+  second_address?: string;
+  zip_code: string;
+  choose_file: FileList;
+  password: string;
+  confirm_password: string;
+  intended_study_field: string;
+  degree_sought: string;
+  begin_studies: string;
 }
+
+
+
 //checkout form
 export interface CheckoutFormProps {
   country: string;
