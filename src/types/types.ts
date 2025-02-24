@@ -121,6 +121,19 @@ export interface InstructorRegistrationProps {
   studyField: string;
   degreeSought: string;
 }
+//checkout form
+export interface CheckoutFormProps {
+  country: string;
+  firstName: string;
+  lastName: string;
+  address: string;
+  city: string;
+  postcode: string;
+  phone: string;
+  email: string;
+  notes: string;
+  createAccount?: boolean;
+}
 
 // shopping card
 export interface ShoppCardProps {

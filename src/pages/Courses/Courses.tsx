@@ -45,10 +45,9 @@ const Courses = ({ showMore = true }: { showMore?: boolean }) => {
                     <LinkWithArrow
                         type="button"
                         clickHandler={showMoreCourses}
-                        className={`mt-6 ml-auto md:text-xl sm:text-lg text-sm ${
-                            limit === coursesData.courses.length &&
+                        className={`mt-6 ml-auto md:text-xl sm:text-lg text-sm ${limit === coursesData.courses.length &&
                             "opacity-50 cursor-not-allowed"
-                        } scale`}
+                            } scale`}
                         fullRounded
                         showArrow
                         disabled={limit === coursesData.courses.length}
