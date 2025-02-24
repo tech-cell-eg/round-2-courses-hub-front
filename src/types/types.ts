@@ -141,3 +141,32 @@ export interface ITestimonial {
   title: string;
   image: string;
 }
+
+interface IComment {
+  id: number;
+  dateAndTime: string;
+  name: string;
+  comment: string;
+  image: string;
+}
+
+interface IQuote {
+  author: string;
+  text: string;
+}
+
+export interface IBlogPost {
+  id: number;
+  category: string;
+  title: string;
+  date: string;
+  image: string;
+  blogText: string;
+  comments: {
+    count: number;
+    data: IComment[];
+  };
+  publishedIn: string[];
+  quote: IQuote;
+  tags: string[];
+}
