@@ -1,0 +1,810 @@
+[
+    {
+        "id": 1,
+        "category": "web design",
+        "title": "The Future of Web Design: Trends to Watch",
+        "date": "2025-02-24",
+        "image": "https://s3-alpha-sig.figma.com/img/410c/84f6/889c054bf80a7f0fb873b6425e744e1f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R-ij1XVcXkxH1jNtwBN4q4-i18~0QnhM7jK8QH7jVWbO66VA~4LIX5vZqmQBdFOjiG9sPu6BWNg8hg0WtcDlSq~DCdXrxh-B15q19ws1zAk7lZF9Y3zZ5duYFS4SSC~hI7Ar7cywCfcdgzyX-IW2zYHRcCnJw1r8J5NFHw-lqE0EHN9CZRopATbxhkcQD4o~UwmxdrEVfCen8WZCTciOnUhpbVQo4zwtkArI4Jzf-sAZMuYZKAvRVbzphkCX~7bI6fFtEGSYeVxlsTYMm6ZiYhdjG-wIvCfqZIhGdMV7b3e7rEcufmszpLnsLRCZuWwJYOvLGasS231Dnf~tpw~I3A__",
+        "blogText": "Web design is evolving rapidly. With advancements in technology, designers are now focusing on creating more interactive and user-friendly interfaces. The use of AI and machine learning in web design is becoming more prevalent, allowing for personalized user experiences. Additionally, the rise of dark mode and minimalist designs continues to shape the future of web design.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-02-24 10:00 AM",
+                    "name": "John Doe",
+                    "comment": "Great insights! The future of web design looks promising.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-02-24 11:30 PM",
+                    "name": "Jane Smith",
+                    "comment": "Very informative. I especially liked the part about AI in design.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/3.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "trends",
+            "design"
+        ],
+        "quote": {
+            "author": "Alina Wheeler",
+            "text": "Design is intelligence made visible."
+        },
+        "tags": [
+            "UX",
+            "UI",
+            "trends"
+        ]
+    },
+    {
+        "id": 2,
+        "category": "graphic design",
+        "title": "The Art of Visual Storytelling",
+        "date": "2025-03-15",
+        "image": "https://s3-alpha-sig.figma.com/img/5c49/551f/e3f21a36038f9ecdfb83b89552f09d34?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Va5JsIeHewti9HXKyA3uTBVC07hzBvX5dNjhFj9INMEaQgkGZ-OuXb-StEVlUtzGcrGa6hitsDNDdSvuS-QS6ZTVSV6TBuqfcDGeukIEA8KocHpCztMTEkKhyfGXJ-QRZs26N0ykwInTygmvgW3GCjA0XpYPfgt2Jbp4nq2knZy4sTISjWKmk5nVvQ5nKOicspc4vDpqy7medcXdqenZVlehsqgVtKhZ3GMBHuirLRRL31p4rbqC6Atg~uRUMdzb7ixINF1VGSb-MmAZ6CJdShTwMgbiDC-4tZTmni2EycMHJiPnu061N8w7hyT55c4ih7HJK8miPnvD7KT~7mbZ-A__",
+        "blogText": "Graphic design is more than just aesthetics; it's about telling a story. In today's digital age, the ability to convey a message through visuals is crucial. From typography to color theory, every element plays a role in creating a compelling narrative. This article explores the key principles of visual storytelling and how they can be applied to modern graphic design.",
+        "comments": {
+            "count": 3,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-03-15 09:00 AM",
+                    "name": "Alice Johnson",
+                    "comment": "This was a fascinating read. Visual storytelling is indeed an art.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/35.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-03-15 02:30 PM",
+                    "name": "Bob Brown",
+                    "comment": "I learned a lot about the importance of typography. Great article!",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+                },
+                {
+                    "id": 3,
+                    "dateAndTime": "2025-03-15 08:00 PM",
+                    "name": "Charlie Davis",
+                    "comment": "The section on color theory was particularly insightful.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/35.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "art",
+            "design"
+        ],
+        "quote": {
+            "author": "Paul Rand",
+            "text": "Design is the silent ambassador of your brand."
+        },
+        "tags": [
+            "visual storytelling",
+            "typography",
+            "color theory"
+        ]
+    },
+    {
+        "id": 3,
+        "category": "it and software",
+        "title": "The Rise of Quantum Computing",
+        "date": "2025-04-10",
+        "image": "https://s3-alpha-sig.figma.com/img/08da/5b63/a3036de9c70aeeb89ea6b26e18418141?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jb2kH6yyo4ws1NMZBAcymWsG0coRVaiES2OMFhWxRnYs-ETu7LoKKRdFPPosExnsKMcp1FP6UsTNLZQE38dTjBwCiLc96W-S6P1-FFItXWSAup4CUGcNQa62COAj1VzlyMRRhIuyJKloVz2TBIBpmo06OhtrKTwylIVjdeJxYcJ8HuP95Pc0VcQH6PlMv4EAMckTPTzhTCfJbkjhtJj1z1vS4Db~FFDye~rWJbvIJg5NN3i5an3tWNuOPBn9mlWlk2bB49C8dY4ixDpfrdYQDgv7P3IGMsDGX6YAgHLCNSft0nIiYd~8T0N792T7Zjw~L2XAiDU9YboXWmiD7dk6-w__",
+        "blogText": "Quantum computing is no longer a concept of the future; it's becoming a reality. With the potential to solve complex problems in seconds, quantum computers are set to revolutionize industries from healthcare to finance. This article delves into the basics of quantum computing, its applications, and the challenges that lie ahead.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-04-10 11:00 AM",
+                    "name": "David Wilson",
+                    "comment": "Quantum computing is mind-blowing. Can't wait to see where it goes!",
+                    "image": "https://randomuser.me/api/portraits/thumb/women/1.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-04-10 06:30 PM",
+                    "name": "Eva Green",
+                    "comment": "The potential applications in healthcare are exciting.",
+                    "image": "https://randomuser.me/api/portraits/thumb/women/3.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "technology",
+            "innovation"
+        ],
+        "quote": {
+            "author": "Richard Feynman",
+            "text": "Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical."
+        },
+        "tags": [
+            "quantum computing",
+            "technology",
+            "innovation"
+        ]
+    },
+    {
+        "id": 4,
+        "category": "sales management",
+        "title": "Effective Sales Strategies for 2025",
+        "date": "2025-05-20",
+        "image": "https://s3-alpha-sig.figma.com/img/410c/84f6/889c054bf80a7f0fb873b6425e744e1f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R-ij1XVcXkxH1jNtwBN4q4-i18~0QnhM7jK8QH7jVWbO66VA~4LIX5vZqmQBdFOjiG9sPu6BWNg8hg0WtcDlSq~DCdXrxh-B15q19ws1zAk7lZF9Y3zZ5duYFS4SSC~hI7Ar7cywCfcdgzyX-IW2zYHRcCnJw1r8J5NFHw-lqE0EHN9CZRopATbxhkcQD4o~UwmxdrEVfCen8WZCTciOnUhpbVQo4zwtkArI4Jzf-sAZMuYZKAvRVbzphkCX~7bI6fFtEGSYeVxlsTYMm6ZiYhdjG-wIvCfqZIhGdMV7b3e7rEcufmszpLnsLRCZuWwJYOvLGasS231Dnf~tpw~I3A__",
+        "blogText": "The world of sales is constantly evolving, and staying ahead of the curve is essential for success. In 2025, the focus is on leveraging data analytics and AI to drive sales strategies. This article explores the latest trends in sales management, including the importance of customer relationship management (CRM) and the role of automation in streamlining sales processes.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-05-20 10:00 AM",
+                    "name": "Frank White",
+                    "comment": "Great insights on the future of sales management.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/9.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-05-20 03:30 PM",
+                    "name": "Grace Lee",
+                    "comment": "The section on AI in sales was particularly enlightening.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/8.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "business",
+            "sales"
+        ],
+        "quote": {
+            "author": "Zig Ziglar",
+            "text": "You don't build a business. You build people, and then people build the business."
+        },
+        "tags": [
+            "sales strategies",
+            "AI",
+            "CRM"
+        ]
+    },
+    {
+        "id": 5,
+        "category": "art and humanities",
+        "title": "The Renaissance of Digital Art",
+        "date": "2025-06-05",
+        "image": "https://s3-alpha-sig.figma.com/img/5c49/551f/e3f21a36038f9ecdfb83b89552f09d34?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Va5JsIeHewti9HXKyA3uTBVC07hzBvX5dNjhFj9INMEaQgkGZ-OuXb-StEVlUtzGcrGa6hitsDNDdSvuS-QS6ZTVSV6TBuqfcDGeukIEA8KocHpCztMTEkKhyfGXJ-QRZs26N0ykwInTygmvgW3GCjA0XpYPfgt2Jbp4nq2knZy4sTISjWKmk5nVvQ5nKOicspc4vDpqy7medcXdqenZVlehsqgVtKhZ3GMBHuirLRRL31p4rbqC6Atg~uRUMdzb7ixINF1VGSb-MmAZ6CJdShTwMgbiDC-4tZTmni2EycMHJiPnu061N8w7hyT55c4ih7HJK8miPnvD7KT~7mbZ-A__",
+        "blogText": "Digital art has come a long way since its inception. With the advent of new technologies, artists are now able to create stunning works that were once unimaginable. This article explores the evolution of digital art, the tools that are shaping its future, and the impact it has on the art world.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-06-05 09:00 AM",
+                    "name": "Henry Adams",
+                    "comment": "Digital art is truly a game-changer.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-06-05 04:30 PM",
+                    "name": "Ivy Clark",
+                    "comment": "The tools available today are incredible. Great article!",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "art",
+            "technology"
+        ],
+        "quote": {
+            "author": "Pablo Picasso",
+            "text": "Every child is an artist. The problem is how to remain an artist once we grow up."
+        },
+        "tags": [
+            "digital art",
+            "technology",
+            "art evolution"
+        ]
+    },
+    {
+        "id": 6,
+        "category": "mobile application",
+        "title": "The Future of Mobile Apps: Trends to Watch",
+        "date": "2025-07-12",
+        "image": "https://s3-alpha-sig.figma.com/img/410c/84f6/889c054bf80a7f0fb873b6425e744e1f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R-ij1XVcXkxH1jNtwBN4q4-i18~0QnhM7jK8QH7jVWbO66VA~4LIX5vZqmQBdFOjiG9sPu6BWNg8hg0WtcDlSq~DCdXrxh-B15q19ws1zAk7lZF9Y3zZ5duYFS4SSC~hI7Ar7cywCfcdgzyX-IW2zYHRcCnJw1r8J5NFHw-lqE0EHN9CZRopATbxhkcQD4o~UwmxdrEVfCen8WZCTciOnUhpbVQo4zwtkArI4Jzf-sAZMuYZKAvRVbzphkCX~7bI6fFtEGSYeVxlsTYMm6ZiYhdjG-wIvCfqZIhGdMV7b3e7rEcufmszpLnsLRCZuWwJYOvLGasS231Dnf~tpw~I3A__",
+        "blogText": "Mobile applications are becoming increasingly sophisticated, with new trends emerging every year. In 2025, the focus is on creating more personalized and intuitive user experiences. This article explores the latest trends in mobile app development, including the use of AI, AR, and VR, and how they are shaping the future of mobile apps.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-07-12 10:00 AM",
+                    "name": "Jack Evans",
+                    "comment": "The future of mobile apps looks exciting!",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/3.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-07-12 05:30 PM",
+                    "name": "Karen Hall",
+                    "comment": "I can't wait to see how AR and VR will be integrated into apps.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/4.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "technology",
+            "mobile"
+        ],
+        "quote": {
+            "author": "Steve Jobs",
+            "text": "There's an app for that."
+        },
+        "tags": [
+            "mobile apps",
+            "AI",
+            "AR",
+            "VR"
+        ]
+    },
+    {
+        "id": 7,
+        "category": "web design",
+        "title": "The Importance of Responsive Design",
+        "date": "2025-08-18",
+        "image": "https://s3-alpha-sig.figma.com/img/08da/5b63/a3036de9c70aeeb89ea6b26e18418141?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jb2kH6yyo4ws1NMZBAcymWsG0coRVaiES2OMFhWxRnYs-ETu7LoKKRdFPPosExnsKMcp1FP6UsTNLZQE38dTjBwCiLc96W-S6P1-FFItXWSAup4CUGcNQa62COAj1VzlyMRRhIuyJKloVz2TBIBpmo06OhtrKTwylIVjdeJxYcJ8HuP95Pc0VcQH6PlMv4EAMckTPTzhTCfJbkjhtJj1z1vS4Db~FFDye~rWJbvIJg5NN3i5an3tWNuOPBn9mlWlk2bB49C8dY4ixDpfrdYQDgv7P3IGMsDGX6YAgHLCNSft0nIiYd~8T0N792T7Zjw~L2XAiDU9YboXWmiD7dk6-w__",
+        "blogText": "Responsive design is no longer optional; it's a necessity. With the increasing use of mobile devices, ensuring that your website looks great on all screen sizes is crucial. This article explores the importance of responsive design, the key principles behind it, and how to implement it effectively.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-08-18 11:00 AM",
+                    "name": "Liam Brown",
+                    "comment": "Responsive design is a must in today's world.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/1.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-08-18 06:30 PM",
+                    "name": "Mia Davis",
+                    "comment": "Great tips on implementing responsive design.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/2.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "web",
+            "design"
+        ],
+        "quote": {
+            "author": "Ethan Marcotte",
+            "text": "Responsive design is about creating web pages that look good on all devices."
+        },
+        "tags": [
+            "responsive design",
+            "web development",
+            "UX"
+        ]
+    },
+    {
+        "id": 8,
+        "category": "graphic design",
+        "title": "The Power of Color in Design",
+        "date": "2025-09-22",
+        "image": "https://s3-alpha-sig.figma.com/img/410c/84f6/889c054bf80a7f0fb873b6425e744e1f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R-ij1XVcXkxH1jNtwBN4q4-i18~0QnhM7jK8QH7jVWbO66VA~4LIX5vZqmQBdFOjiG9sPu6BWNg8hg0WtcDlSq~DCdXrxh-B15q19ws1zAk7lZF9Y3zZ5duYFS4SSC~hI7Ar7cywCfcdgzyX-IW2zYHRcCnJw1r8J5NFHw-lqE0EHN9CZRopATbxhkcQD4o~UwmxdrEVfCen8WZCTciOnUhpbVQo4zwtkArI4Jzf-sAZMuYZKAvRVbzphkCX~7bI6fFtEGSYeVxlsTYMm6ZiYhdjG-wIvCfqZIhGdMV7b3e7rEcufmszpLnsLRCZuWwJYOvLGasS231Dnf~tpw~I3A__",
+        "blogText": "Color is one of the most powerful tools in a designer's arsenal. It can evoke emotions, convey messages, and create a sense of harmony. This article explores the psychology of color, how to choose the right color palette for your designs, and the impact of color on user experience.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-09-22 09:00 AM",
+                    "name": "Noah Wilson",
+                    "comment": "Color psychology is fascinating. Great read!",
+                    "image": "https://randomuser.me/api/portraits/thumb/women/35.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-09-22 04:30 PM",
+                    "name": "Olivia Green",
+                    "comment": "The tips on choosing color palettes were very helpful.",
+                    "image": "https://randomuser.me/api/portraits/thumb/women/3.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "design",
+            "psychology"
+        ],
+        "quote": {
+            "author": "Josef Albers",
+            "text": "Color is the most relative medium in art."
+        },
+        "tags": [
+            "color theory",
+            "design psychology",
+            "UX"
+        ]
+    },
+    {
+        "id": 9,
+        "category": "it and software",
+        "title": "The Future of Cybersecurity",
+        "date": "2025-10-30",
+        "image": "https://s3-alpha-sig.figma.com/img/5c49/551f/e3f21a36038f9ecdfb83b89552f09d34?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Va5JsIeHewti9HXKyA3uTBVC07hzBvX5dNjhFj9INMEaQgkGZ-OuXb-StEVlUtzGcrGa6hitsDNDdSvuS-QS6ZTVSV6TBuqfcDGeukIEA8KocHpCztMTEkKhyfGXJ-QRZs26N0ykwInTygmvgW3GCjA0XpYPfgt2Jbp4nq2knZy4sTISjWKmk5nVvQ5nKOicspc4vDpqy7medcXdqenZVlehsqgVtKhZ3GMBHuirLRRL31p4rbqC6Atg~uRUMdzb7ixINF1VGSb-MmAZ6CJdShTwMgbiDC-4tZTmni2EycMHJiPnu061N8w7hyT55c4ih7HJK8miPnvD7KT~7mbZ-A__",
+        "blogText": "As technology advances, so do the threats to cybersecurity. In 2025, the focus is on developing more robust security measures to protect against increasingly sophisticated cyberattacks. This article explores the latest trends in cybersecurity, including the use of AI and machine learning to detect and prevent threats.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-10-30 10:00 AM",
+                    "name": "Peter Harris",
+                    "comment": "Cybersecurity is more important than ever.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/85.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-10-30 05:30 PM",
+                    "name": "Quinn Lewis",
+                    "comment": "The use of AI in cybersecurity is a game-changer.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/15.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "technology",
+            "security"
+        ],
+        "quote": {
+            "author": "Bruce Schneier",
+            "text": "Security is a process, not a product."
+        },
+        "tags": [
+            "cybersecurity",
+            "AI",
+            "machine learning"
+        ]
+    },
+    {
+        "id": 10,
+        "category": "sales management",
+        "title": "The Role of Emotional Intelligence in Sales",
+        "date": "2025-11-15",
+        "image": "https://s3-alpha-sig.figma.com/img/5c49/551f/e3f21a36038f9ecdfb83b89552f09d34?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Va5JsIeHewti9HXKyA3uTBVC07hzBvX5dNjhFj9INMEaQgkGZ-OuXb-StEVlUtzGcrGa6hitsDNDdSvuS-QS6ZTVSV6TBuqfcDGeukIEA8KocHpCztMTEkKhyfGXJ-QRZs26N0ykwInTygmvgW3GCjA0XpYPfgt2Jbp4nq2knZy4sTISjWKmk5nVvQ5nKOicspc4vDpqy7medcXdqenZVlehsqgVtKhZ3GMBHuirLRRL31p4rbqC6Atg~uRUMdzb7ixINF1VGSb-MmAZ6CJdShTwMgbiDC-4tZTmni2EycMHJiPnu061N8w7hyT55c4ih7HJK8miPnvD7KT~7mbZ-A__",
+        "blogText": "Emotional intelligence (EQ) is becoming increasingly important in the world of sales. The ability to understand and manage emotions can lead to more successful sales interactions and stronger customer relationships. This article explores the role of EQ in sales, how to develop it, and its impact on sales performance.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-11-15 11:00 AM",
+                    "name": "Ryan Clark",
+                    "comment": "EQ is crucial in sales. Great insights!",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/35.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-11-15 06:30 PM",
+                    "name": "Sophia Adams",
+                    "comment": "The tips on developing EQ were very helpful.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "business",
+            "sales"
+        ],
+        "quote": {
+            "author": "Daniel Goleman",
+            "text": "Emotional intelligence is the key to both personal and professional success."
+        },
+        "tags": [
+            "emotional intelligence",
+            "sales",
+            "customer relationships"
+        ]
+    },
+    {
+        "id": 11,
+        "category": "art and humanities",
+        "title": "The Impact of Social Media on Art",
+        "date": "2025-12-01",
+        "image": "https://s3-alpha-sig.figma.com/img/410c/84f6/889c054bf80a7f0fb873b6425e744e1f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R-ij1XVcXkxH1jNtwBN4q4-i18~0QnhM7jK8QH7jVWbO66VA~4LIX5vZqmQBdFOjiG9sPu6BWNg8hg0WtcDlSq~DCdXrxh-B15q19ws1zAk7lZF9Y3zZ5duYFS4SSC~hI7Ar7cywCfcdgzyX-IW2zYHRcCnJw1r8J5NFHw-lqE0EHN9CZRopATbxhkcQD4o~UwmxdrEVfCen8WZCTciOnUhpbVQo4zwtkArI4Jzf-sAZMuYZKAvRVbzphkCX~7bI6fFtEGSYeVxlsTYMm6ZiYhdjG-wIvCfqZIhGdMV7b3e7rEcufmszpLnsLRCZuWwJYOvLGasS231Dnf~tpw~I3A__",
+        "blogText": "Social media has revolutionized the way we create, share, and consume art. Platforms like Instagram and TikTok have given artists a global audience, but they have also raised questions about the commodification of art. This article explores the impact of social media on the art world, both positive and negative.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2025-12-01 09:00 AM",
+                    "name": "Thomas White",
+                    "comment": "Social media has changed the art world forever.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2025-12-01 04:30 PM",
+                    "name": "Uma Green",
+                    "comment": "The commodification of art is a complex issue.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "art",
+            "social media"
+        ],
+        "quote": {
+            "author": "Banksy",
+            "text": "Art should comfort the disturbed and disturb the comfortable."
+        },
+        "tags": [
+            "social media",
+            "art",
+            "digital culture"
+        ]
+    },
+    {
+        "id": 12,
+        "category": "mobile application",
+        "title": "The Rise of Super Apps",
+        "date": "2026-01-10",
+        "image": "https://s3-alpha-sig.figma.com/img/410c/84f6/889c054bf80a7f0fb873b6425e744e1f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R-ij1XVcXkxH1jNtwBN4q4-i18~0QnhM7jK8QH7jVWbO66VA~4LIX5vZqmQBdFOjiG9sPu6BWNg8hg0WtcDlSq~DCdXrxh-B15q19ws1zAk7lZF9Y3zZ5duYFS4SSC~hI7Ar7cywCfcdgzyX-IW2zYHRcCnJw1r8J5NFHw-lqE0EHN9CZRopATbxhkcQD4o~UwmxdrEVfCen8WZCTciOnUhpbVQo4zwtkArI4Jzf-sAZMuYZKAvRVbzphkCX~7bI6fFtEGSYeVxlsTYMm6ZiYhdjG-wIvCfqZIhGdMV7b3e7rEcufmszpLnsLRCZuWwJYOvLGasS231Dnf~tpw~I3A__",
+        "blogText": "Super apps, which offer multiple services within a single platform, are becoming increasingly popular. In 2026, the focus is on creating apps that can handle everything from messaging to payments to shopping. This article explores the rise of super apps, their benefits, and the challenges they face.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2026-01-10 10:00 AM",
+                    "name": "Victor Lee",
+                    "comment": "Super apps are the future of mobile technology.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2026-01-10 05:30 PM",
+                    "name": "Wendy Hall",
+                    "comment": "The convenience of super apps is unmatched.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "technology",
+            "mobile"
+        ],
+        "quote": {
+            "author": "Elon Musk",
+            "text": "The future of apps is integration."
+        },
+        "tags": [
+            "super apps",
+            "mobile technology",
+            "integration"
+        ]
+    },
+    {
+        "id": 13,
+        "category": "web design",
+        "title": "The Role of Animation in Web Design",
+        "date": "2026-02-14",
+        "image": "https://s3-alpha-sig.figma.com/img/08da/5b63/a3036de9c70aeeb89ea6b26e18418141?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jb2kH6yyo4ws1NMZBAcymWsG0coRVaiES2OMFhWxRnYs-ETu7LoKKRdFPPosExnsKMcp1FP6UsTNLZQE38dTjBwCiLc96W-S6P1-FFItXWSAup4CUGcNQa62COAj1VzlyMRRhIuyJKloVz2TBIBpmo06OhtrKTwylIVjdeJxYcJ8HuP95Pc0VcQH6PlMv4EAMckTPTzhTCfJbkjhtJj1z1vS4Db~FFDye~rWJbvIJg5NN3i5an3tWNuOPBn9mlWlk2bB49C8dY4ixDpfrdYQDgv7P3IGMsDGX6YAgHLCNSft0nIiYd~8T0N792T7Zjw~L2XAiDU9YboXWmiD7dk6-w__",
+        "blogText": "Animation is becoming an increasingly important tool in web design. It can enhance user experience, guide users through a website, and make a site more engaging. This article explores the role of animation in web design, the different types of animations, and how to use them effectively.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2026-02-14 11:00 AM",
+                    "name": "Xander Brown",
+                    "comment": "Animation adds so much to web design.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2026-02-14 06:30 PM",
+                    "name": "Yara Davis",
+                    "comment": "Great tips on using animation effectively.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "web",
+            "design"
+        ],
+        "quote": {
+            "author": "Walt Disney",
+            "text": "Animation can explain whatever the mind of man can conceive."
+        },
+        "tags": [
+            "animation",
+            "web design",
+            "UX"
+        ]
+    },
+    {
+        "id": 14,
+        "category": "graphic design",
+        "title": "The Evolution of Typography",
+        "date": "2026-03-20",
+        "image": "https://s3-alpha-sig.figma.com/img/410c/84f6/889c054bf80a7f0fb873b6425e744e1f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R-ij1XVcXkxH1jNtwBN4q4-i18~0QnhM7jK8QH7jVWbO66VA~4LIX5vZqmQBdFOjiG9sPu6BWNg8hg0WtcDlSq~DCdXrxh-B15q19ws1zAk7lZF9Y3zZ5duYFS4SSC~hI7Ar7cywCfcdgzyX-IW2zYHRcCnJw1r8J5NFHw-lqE0EHN9CZRopATbxhkcQD4o~UwmxdrEVfCen8WZCTciOnUhpbVQo4zwtkArI4Jzf-sAZMuYZKAvRVbzphkCX~7bI6fFtEGSYeVxlsTYMm6ZiYhdjG-wIvCfqZIhGdMV7b3e7rEcufmszpLnsLRCZuWwJYOvLGasS231Dnf~tpw~I3A__",
+        "blogText": "Typography has come a long way since the invention of the printing press. Today, it plays a crucial role in branding, advertising, and web design. This article explores the evolution of typography, the different types of fonts, and how to choose the right typography for your designs.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2026-03-20 09:00 AM",
+                    "name": "Zoe Wilson",
+                    "comment": "Typography is such an important aspect of design.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2026-03-20 04:30 PM",
+                    "name": "Aaron Green",
+                    "comment": "The history of typography is fascinating.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "design",
+            "history"
+        ],
+        "quote": {
+            "author": "Matthew Carter",
+            "text": "Type is a beautiful group of letters, not a group of beautiful letters."
+        },
+        "tags": [
+            "typography",
+            "design",
+            "branding"
+        ]
+    },
+    {
+        "id": 15,
+        "category": "it and software",
+        "title": "The Future of Cloud Computing",
+        "date": "2026-04-25",
+        "image": "https://s3-alpha-sig.figma.com/img/410c/84f6/889c054bf80a7f0fb873b6425e744e1f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R-ij1XVcXkxH1jNtwBN4q4-i18~0QnhM7jK8QH7jVWbO66VA~4LIX5vZqmQBdFOjiG9sPu6BWNg8hg0WtcDlSq~DCdXrxh-B15q19ws1zAk7lZF9Y3zZ5duYFS4SSC~hI7Ar7cywCfcdgzyX-IW2zYHRcCnJw1r8J5NFHw-lqE0EHN9CZRopATbxhkcQD4o~UwmxdrEVfCen8WZCTciOnUhpbVQo4zwtkArI4Jzf-sAZMuYZKAvRVbzphkCX~7bI6fFtEGSYeVxlsTYMm6ZiYhdjG-wIvCfqZIhGdMV7b3e7rEcufmszpLnsLRCZuWwJYOvLGasS231Dnf~tpw~I3A__",
+        "blogText": "Cloud computing is transforming the way we store, process, and access data. In 2026, the focus is on creating more secure, scalable, and efficient cloud solutions. This article explores the future of cloud computing, the latest trends, and the challenges that lie ahead.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2026-04-25 10:00 AM",
+                    "name": "Benjamin Adams",
+                    "comment": "Cloud computing is the backbone of modern technology.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/25.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2026-04-25 05:30 PM",
+                    "name": "Chloe Clark",
+                    "comment": "The scalability of cloud solutions is impressive.",
+                    "image": "https://randomuser.me/api/portraits/thumb/women/25.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "technology",
+            "cloud"
+        ],
+        "quote": {
+            "author": "Marc Benioff",
+            "text": "The cloud is the future of computing."
+        },
+        "tags": [
+            "cloud computing",
+            "technology",
+            "scalability"
+        ]
+    },
+    {
+        "id": 16,
+        "category": "sales management",
+        "title": "The Art of Negotiation in Sales",
+        "date": "2026-05-30",
+        "image": "https://s3-alpha-sig.figma.com/img/5c49/551f/e3f21a36038f9ecdfb83b89552f09d34?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Va5JsIeHewti9HXKyA3uTBVC07hzBvX5dNjhFj9INMEaQgkGZ-OuXb-StEVlUtzGcrGa6hitsDNDdSvuS-QS6ZTVSV6TBuqfcDGeukIEA8KocHpCztMTEkKhyfGXJ-QRZs26N0ykwInTygmvgW3GCjA0XpYPfgt2Jbp4nq2knZy4sTISjWKmk5nVvQ5nKOicspc4vDpqy7medcXdqenZVlehsqgVtKhZ3GMBHuirLRRL31p4rbqC6Atg~uRUMdzb7ixINF1VGSb-MmAZ6CJdShTwMgbiDC-4tZTmni2EycMHJiPnu061N8w7hyT55c4ih7HJK8miPnvD7KT~7mbZ-A__",
+        "blogText": "Negotiation is a critical skill in sales. The ability to negotiate effectively can lead to better deals, stronger relationships, and increased revenue. This article explores the art of negotiation in sales, the key principles behind it, and how to master it.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2026-05-30 11:00 AM",
+                    "name": "Daniel White",
+                    "comment": "Negotiation is an art form. Great insights!",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2026-05-30 06:30 PM",
+                    "name": "Ella Green",
+                    "comment": "The tips on mastering negotiation were very helpful.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/95.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "business",
+            "sales"
+        ],
+        "quote": {
+            "author": "Chester Karrass",
+            "text": "In business, you don't get what you deserve, you get what you negotiate."
+        },
+        "tags": [
+            "negotiation",
+            "sales",
+            "business"
+        ]
+    },
+    {
+        "id": 17,
+        "category": "art and humanities",
+        "title": "The Role of Art in Society",
+        "date": "2026-06-15",
+        "image": "https://s3-alpha-sig.figma.com/img/08da/5b63/a3036de9c70aeeb89ea6b26e18418141?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jb2kH6yyo4ws1NMZBAcymWsG0coRVaiES2OMFhWxRnYs-ETu7LoKKRdFPPosExnsKMcp1FP6UsTNLZQE38dTjBwCiLc96W-S6P1-FFItXWSAup4CUGcNQa62COAj1VzlyMRRhIuyJKloVz2TBIBpmo06OhtrKTwylIVjdeJxYcJ8HuP95Pc0VcQH6PlMv4EAMckTPTzhTCfJbkjhtJj1z1vS4Db~FFDye~rWJbvIJg5NN3i5an3tWNuOPBn9mlWlk2bB49C8dY4ixDpfrdYQDgv7P3IGMsDGX6YAgHLCNSft0nIiYd~8T0N792T7Zjw~L2XAiDU9YboXWmiD7dk6-w__",
+        "blogText": "Art has always played a crucial role in society, reflecting cultural values, challenging norms, and inspiring change. This article explores the role of art in society, its impact on culture, and how it can be used as a tool for social change.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2026-06-15 09:00 AM",
+                    "name": "Finn Harris",
+                    "comment": "Art is a powerful tool for social change.",
+                    "image": "https://randomuser.me/api/portraits/thumb/women/75.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2026-06-15 04:30 PM",
+                    "name": "Grace Lewis",
+                    "comment": "The impact of art on culture is profound.",
+                    "image": "https://randomuser.me/api/portraits/thumb/women/5.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "art",
+            "society"
+        ],
+        "quote": {
+            "author": "Leo Tolstoy",
+            "text": "Art is not a handicraft, it is the transmission of feeling the artist has experienced."
+        },
+        "tags": [
+            "art",
+            "society",
+            "culture"
+        ]
+    },
+    {
+        "id": 18,
+        "category": "mobile application",
+        "title": "The Future of Mobile Gaming",
+        "date": "2026-07-20",
+        "image": "https://s3-alpha-sig.figma.com/img/08da/5b63/a3036de9c70aeeb89ea6b26e18418141?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jb2kH6yyo4ws1NMZBAcymWsG0coRVaiES2OMFhWxRnYs-ETu7LoKKRdFPPosExnsKMcp1FP6UsTNLZQE38dTjBwCiLc96W-S6P1-FFItXWSAup4CUGcNQa62COAj1VzlyMRRhIuyJKloVz2TBIBpmo06OhtrKTwylIVjdeJxYcJ8HuP95Pc0VcQH6PlMv4EAMckTPTzhTCfJbkjhtJj1z1vS4Db~FFDye~rWJbvIJg5NN3i5an3tWNuOPBn9mlWlk2bB49C8dY4ixDpfrdYQDgv7P3IGMsDGX6YAgHLCNSft0nIiYd~8T0N792T7Zjw~L2XAiDU9YboXWmiD7dk6-w__",
+        "blogText": "Mobile gaming is one of the fastest-growing sectors in the tech industry. In 2026, the focus is on creating more immersive and interactive gaming experiences. This article explores the future of mobile gaming, the latest trends, and the challenges that lie ahead.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2026-07-20 10:00 AM",
+                    "name": "Henry Adams",
+                    "comment": "Mobile gaming is evolving at an incredible pace.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/15.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2026-07-20 05:30 PM",
+                    "name": "Isla Clark",
+                    "comment": "The potential for immersive gaming is exciting.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "technology",
+            "gaming"
+        ],
+        "quote": {
+            "author": "Shigeru Miyamoto",
+            "text": "Video games are bad for you? That's what they said about rock and roll."
+        },
+        "tags": [
+            "mobile gaming",
+            "technology",
+            "gaming trends"
+        ]
+    },
+    {
+        "id": 19,
+        "category": "web design",
+        "title": "The Importance of Accessibility in Web Design",
+        "date": "2026-08-25",
+        "image": "https://s3-alpha-sig.figma.com/img/5c49/551f/e3f21a36038f9ecdfb83b89552f09d34?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Va5JsIeHewti9HXKyA3uTBVC07hzBvX5dNjhFj9INMEaQgkGZ-OuXb-StEVlUtzGcrGa6hitsDNDdSvuS-QS6ZTVSV6TBuqfcDGeukIEA8KocHpCztMTEkKhyfGXJ-QRZs26N0ykwInTygmvgW3GCjA0XpYPfgt2Jbp4nq2knZy4sTISjWKmk5nVvQ5nKOicspc4vDpqy7medcXdqenZVlehsqgVtKhZ3GMBHuirLRRL31p4rbqC6Atg~uRUMdzb7ixINF1VGSb-MmAZ6CJdShTwMgbiDC-4tZTmni2EycMHJiPnu061N8w7hyT55c4ih7HJK8miPnvD7KT~7mbZ-A__",
+        "blogText": "Accessibility is a critical aspect of web design. Ensuring that your website is accessible to all users, including those with disabilities, is not only a legal requirement but also a moral obligation. This article explores the importance of accessibility in web design, the key principles behind it, and how to implement it effectively.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2026-08-25 11:00 AM",
+                    "name": "Jack Wilson",
+                    "comment": "Accessibility should be a priority for all designers.",
+                    "image": ""
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2026-08-25 06:30 PM",
+                    "name": "Kara Green",
+                    "comment": "Great tips on making websites more accessible.",
+                    "image": ""
+                }
+            ]
+        },
+        "publishedIn": [
+            "web",
+            "design"
+        ],
+        "quote": {
+            "author": "Tim Berners-Lee",
+            "text": "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect."
+        },
+        "tags": [
+            "accessibility",
+            "web design",
+            "UX"
+        ]
+    },
+    {
+        "id": 20,
+        "category": "graphic design",
+        "title": "The Future of Branding",
+        "date": "2026-09-30",
+        "image": "https://s3-alpha-sig.figma.com/img/08da/5b63/a3036de9c70aeeb89ea6b26e18418141?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jb2kH6yyo4ws1NMZBAcymWsG0coRVaiES2OMFhWxRnYs-ETu7LoKKRdFPPosExnsKMcp1FP6UsTNLZQE38dTjBwCiLc96W-S6P1-FFItXWSAup4CUGcNQa62COAj1VzlyMRRhIuyJKloVz2TBIBpmo06OhtrKTwylIVjdeJxYcJ8HuP95Pc0VcQH6PlMv4EAMckTPTzhTCfJbkjhtJj1z1vS4Db~FFDye~rWJbvIJg5NN3i5an3tWNuOPBn9mlWlk2bB49C8dY4ixDpfrdYQDgv7P3IGMsDGX6YAgHLCNSft0nIiYd~8T0N792T7Zjw~L2XAiDU9YboXWmiD7dk6-w__",
+        "blogText": "Branding is more than just a logo; it's the identity of a company. In 2026, the focus is on creating more dynamic and interactive branding experiences. This article explores the future of branding, the latest trends, and how to create a brand that resonates with your audience.",
+        "comments": {
+            "count": 2,
+            "data": [
+                {
+                    "id": 1,
+                    "dateAndTime": "2026-09-30 09:00 AM",
+                    "name": "Liam Brown",
+                    "comment": "Branding is evolving in exciting ways.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                },
+                {
+                    "id": 2,
+                    "dateAndTime": "2026-09-30 04:30 PM",
+                    "name": "Mia Davis",
+                    "comment": "The future of branding looks promising.",
+                    "image": "https://randomuser.me/api/portraits/thumb/men/25.jpg"
+                }
+            ]
+        },
+        "publishedIn": [
+            "design",
+            "branding"
+        ],
+        "quote": {
+            "author": "Marty Neumeier",
+            "text": "A brand is a person's gut feeling about a product, service, or organization."
+        },
+        "tags": [
+            "branding",
+            "design",
+            "marketing"
+        ]
+    }
+]

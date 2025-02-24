@@ -151,3 +151,41 @@ export interface ShoppCardProps {
   discount: string;
   rating: number;
 }
+
+export interface ITestimonial {
+  id: number;
+  text: string;
+  rating: number;
+  name: string;
+  title: string;
+  image: string;
+}
+
+interface IComment {
+  id: number;
+  dateAndTime: string;
+  name: string;
+  comment: string;
+  image: string;
+}
+
+interface IQuote {
+  author: string;
+  text: string;
+}
+
+export interface IBlogPost {
+  id: number;
+  category: string;
+  title: string;
+  date: string;
+  image: string;
+  blogText: string;
+  comments: {
+    count: number;
+    data: IComment[];
+  };
+  publishedIn: string[];
+  quote: IQuote;
+  tags: string[];
+}
