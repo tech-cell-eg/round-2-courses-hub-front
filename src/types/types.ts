@@ -132,3 +132,12 @@ export interface ShoppCardProps {
   discount: string;
   rating: number;
 }
+
+export interface ITestimonial {
+  id: number;
+  text: string;
+  rating: number;
+  name: string;
+  title: string;
+  image: string;
+}
