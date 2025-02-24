@@ -6,7 +6,7 @@ import LinkWithArrow from '../../components/LinkWithArrow';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { SlCalender } from 'react-icons/sl';
 import { LiaCommentsSolid } from 'react-icons/lia';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const tags = [
   'Balance',
@@ -25,6 +25,7 @@ export default function BlogSidebar() {
   const filteredData = data.filter((post) => post.category === category);
   const postsPerPage = 3;
   const totalPages = Math.ceil(filteredData.length / postsPerPage);
+  const { state } = useLocation();
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
@@ -43,7 +44,8 @@ export default function BlogSidebar() {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, []);
+    setCategory(state?.categoryName || 'web design');
+  }, [state]);
 
   return (
     <div className="py-20 min-h-screen grid grid-cols-7 gap-10">
