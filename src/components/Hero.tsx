@@ -28,7 +28,7 @@ export default function Hero() {
         </p>
         <LinkWithArrow
           to={`/courses`}
-          className="mt-4 flex items-center bg-[#17254E] !text-white font-medium scale !pr-1 w-fit lg:mx-0 mx-auto"
+          className="mt-4 flex items-center !bg-[#17254E] !text-white font-medium scale !pr-1 w-fit lg:mx-0 mx-auto"
           fullRounded
         >
           <span className="flex items-center gap-1">
