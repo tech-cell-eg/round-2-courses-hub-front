@@ -5,28 +5,42 @@ import * as Yup from 'yup';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import LinkWithArrow from '../../components/LinkWithArrow';
-
 import { FaFacebook, FaGoogle, FaApple } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
+import axios from "axios";
+
 
 const validationSchema = Yup.object({
   email: Yup.string().email('Invalid email address').required('Email is required'),
-
   password: Yup.string()
     .required('Password is required')
     .min(8, 'Password must be at least 8 characters'),
+  role: Yup.string().required('Please select either Student or Instructor'),
 });
 
 const Login = () => {
+  const API_URL =
+    import.meta.env.VITE_BASE_URL ||
+    "https://round2-courses-hub.digital-vision-solutions.com/api";
+
   const formik = useFormik({
     initialValues: {
       email: '',
       password: '',
+      role: '',
     },
     validationSchema,
-    onSubmit: (_, { resetForm }) => {
-      setTimeout(() => {
-        toast.success('Message sent successfully!', {
+    onSubmit: async (values, { resetForm }) => {
+      console.log('Login Data:', values); // Log form values before submission
+
+      try {
+        const formData = new FormData();
+        formData.append('email', values.email);
+        formData.append('password', values.password);
+
+        await submitForm(formData, values.role as "student" | "instructor");
+
+        toast.success('Login successful!', {
           position: 'bottom-left',
           autoClose: 3000,
           hideProgressBar: false,
@@ -34,10 +48,33 @@ const Login = () => {
           pauseOnHover: true,
           draggable: true,
         });
+
+        console.log('Submitted successfully:', values);
+
         resetForm();
-      }, 1000);
+      } catch (error) {
+        console.error('Login failed:', error);
+        toast.error('Login failed. Please try again.');
+      }
     },
   });
+
+  const submitForm = async (formData: FormData, role: "student" | "instructor") => {
+    try {
+      const response = await axios.post(`${API_URL}/${role}/login`, formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
+
+      console.log('API Response:', response.data); // Log API response
+      return response.data;
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      throw error;
+    }
+  };
+
   return (
     <>
       <div className="my-20 flex lg:flex-row flex-col lg:gap-0 gap-10 justify-between">
@@ -73,6 +110,38 @@ const Login = () => {
               />
               {formik.touched.password && formik.errors.password ? (
                 <div className="text-red-500 text-sm">{formik.errors.password}</div>
+              ) : null}
+            </div>
+
+            {/* Role Selection */}
+            <div className="mb-4">
+              <p className="mb-2 font-semibold">Sign in as:</p>
+              <label className="flex items-center gap-2">
+                <input
+                  type="radio"
+                  name="role"
+                  value="student"
+                  checked={formik.values.role === 'student'}
+                  onChange={formik.handleChange}
+                  className="w-4 h-4"
+                />
+                Student
+              </label>
+
+              <label className="flex items-center gap-2">
+                <input
+                  type="radio"
+                  name="role"
+                  value="instructor"
+                  checked={formik.values.role === 'instructor'}
+                  onChange={formik.handleChange}
+                  className="w-4 h-4"
+                />
+                Instructor
+              </label>
+
+              {formik.touched.role && formik.errors.role ? (
+                <div className="text-red-500 text-sm">{formik.errors.role}</div>
               ) : null}
             </div>
 
