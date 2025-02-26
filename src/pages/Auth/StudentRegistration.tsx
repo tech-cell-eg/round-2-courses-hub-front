@@ -40,7 +40,6 @@ const StudentRegistration = () => {
 
         if (response.data.token) {
           setToken(response.data.token);
-          localStorage.setItem("student_token", response.data.token);
         }
 
         toast.success("Account Created!", {

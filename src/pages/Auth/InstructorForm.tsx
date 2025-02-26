@@ -3,8 +3,12 @@ import { InstructorRegistrationProps } from "../../types/types";
 import { useNavigate } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import axios from "axios";
+import { useAuth } from "../../context/AuthContext";
+
 
 export default function InstructorForm() {
+  const { setToken, token } = useAuth();
+
   const navigate = useNavigate();
   const {
     register,
@@ -12,6 +16,7 @@ export default function InstructorForm() {
     formState: { errors },
     watch,
   } = useForm<InstructorRegistrationProps>();
+  console.log("token", token);
 
   const API_URL =
     import.meta.env.VITE_BASE_URL ||
@@ -20,6 +25,7 @@ export default function InstructorForm() {
   const onSubmit = async (data: InstructorRegistrationProps) => {
     try {
       console.log("Submitting Data:", data);
+      // if(data.)
 
       if (data.password.length < 8) {
         alert("Password must be at least 8 characters.");
@@ -71,6 +77,8 @@ export default function InstructorForm() {
     });
 
     console.log("Response:", response.data);
+    setToken(response.data.data.token);
+
     alert("Registration Successful!");
     navigate("/");
   };
