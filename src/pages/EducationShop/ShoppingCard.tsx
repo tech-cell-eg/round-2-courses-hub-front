@@ -25,8 +25,8 @@ function ShoppingCard({ card }: { card: ShoppCardProps }) {
         {/* Pricing & Rating */}
         <div className="flex justify-between items-center flex-grow">
           <div className="flex items-center text-red-500 font-bold">
-            <span>{card.currentPrice}</span>
-            <span className="line-through text-gray-400 ml-2">{card.lastPrice}</span>
+            <span>${card.currentPrice}</span>
+            <span className="line-through text-gray-400 ml-2">${card.lastPrice}</span>
           </div>
           <p className="text-yellow-500">⭐ {card.rating}</p>
         </div>

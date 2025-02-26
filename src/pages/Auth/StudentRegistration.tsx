@@ -1,46 +1,62 @@
-import { useFormik } from 'formik';
-import * as Yup from 'yup';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { useFormik } from "formik";
+import * as Yup from "yup";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useAuth } from "../../context/AuthContext";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+
+const API_URL =
+  import.meta.env.VITE_BASE_URL ||
+  "https://round2-courses-hub.digital-vision-solutions.com/api/student/register";
 
 const validationSchema = Yup.object({
-  email: Yup.string().email('Invalid email address').required('Email is required'),
-  firstName: Yup.string().required('First Name is required'),
-  lastName: Yup.string().required('Last Name is required'),
-  userName: Yup.string().required('Username is required'),
+  name: Yup.string().required("Name is required"),
+  email: Yup.string().email("Invalid email address").required("Email is required"),
+  phone: Yup.string()
+    .matches(/^\d{10,11}$/, "Phone must be 10-11 digits")
+    .required("Phone is required"),
   password: Yup.string()
-    .required('Password is required')
-    .min(8, 'Password must be at least 8 characters'),
-  confirmPassword: Yup.string()
-    .oneOf([Yup.ref('password')], 'Passwords must match')
-    .required('Confirm Password is required'),
+    .required("Password is required")
+    .min(8, "Password must be at least 8 characters"),
 });
 
 const StudentRegistration = () => {
+  const { setToken } = useAuth();
+  const navigate = useNavigate();
+
   const formik = useFormik({
     initialValues: {
-      firstName: '',
-      lastName: '',
-      userName: '',
-      email: '',
-      password: '',
-      confirmPassword: '',
+      name: "",
+      email: "",
+      phone: "",
+      password: "",
     },
     validationSchema,
-    onSubmit: (_, { resetForm }) => {
-      setTimeout(() => {
-        toast.success('Account Created', {
-          position: 'bottom-left',
+    onSubmit: async (values, { resetForm }) => {
+      try {
+        const response = await axios.post(API_URL, values);
+        console.log("Registration Successful:", response.data);
+
+        if (response.data.token) {
+          setToken(response.data.token);
+          localStorage.setItem("student_token", response.data.token);
+        }
+
+        toast.success("Account Created!", {
+          position: "bottom-left",
           autoClose: 3000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
         });
+
         resetForm();
-      }, 1000);
+        navigate("/");
+      } catch (error) {
+        console.error("Registration Failed:", error);
+        toast.error("Registration Failed. Please try again.");
+      }
     },
   });
+
   return (
     <div className="py-20">
       <form
@@ -50,130 +66,65 @@ const StudentRegistration = () => {
         <h3 className="uppercase text-4xl font-bold text-[#0E2A46] mb-8">
           Student Registration
         </h3>
-        <h4 className="text-lg text-[#0E2A46] font-bold mb-4">
-          Fields with <span className="text-red-400">*</span> are required
-        </h4>
-        <p className="text-[#333931] mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        </p>
 
         <label className="flex flex-col mb-4 gap-1">
-          <span className="font-bold">
-            First Name <span className="text-red-400">*</span>
-          </span>
+          <span className="font-bold">Name *</span>
           <input
             type="text"
-            placeholder="First Name"
-            name="firstName"
+            placeholder="Your Name"
             className="bg-white py-2 px-4 outline-none border border-transparent focus:border-[#7768E5]"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            value={formik.values.firstName}
+            {...formik.getFieldProps("name")}
           />
-          {formik.touched.firstName && formik.errors.firstName ? (
-            <div className="text-red-500 text-sm">{formik.errors.firstName}</div>
-          ) : null}
+          {formik.touched.name && formik.errors.name && (
+            <div className="text-red-500 text-sm">{formik.errors.name}</div>
+          )}
         </label>
 
         <label className="flex flex-col mb-4 gap-1">
-          <span className="font-bold">
-            Last Name <span className="text-red-400">*</span>
-          </span>
-          <input
-            type="text"
-            placeholder="Last Name"
-            name="lastName"
-            className="bg-white py-2 px-4 outline-none border border-transparent focus:border-[#7768E5]"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            value={formik.values.lastName}
-          />
-          {formik.touched.lastName && formik.errors.lastName ? (
-            <div className="text-red-500 text-sm">{formik.errors.lastName}</div>
-          ) : null}
-        </label>
-
-        <label className="flex flex-col mb-4 gap-1">
-          <span className="font-bold">
-            User Name <span className="text-red-400">*</span>
-          </span>
-          <input
-            type="text"
-            placeholder="User Name"
-            name="userName"
-            className="bg-white py-2 px-4 outline-none border border-transparent focus:border-[#7768E5]"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            value={formik.values.userName}
-          />
-          {formik.touched.userName && formik.errors.userName ? (
-            <div className="text-red-500 text-sm">{formik.errors.userName}</div>
-          ) : null}
-        </label>
-
-        <label className="flex flex-col mb-4 gap-1">
-          <span className="font-bold">
-            Email <span className="text-red-400">*</span>
-          </span>
+          <span className="font-bold">Email *</span>
           <input
             type="email"
-            name="email"
             placeholder="Email"
             className="bg-white py-2 px-4 outline-none border border-transparent focus:border-[#7768E5]"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            value={formik.values.email}
+            {...formik.getFieldProps("email")}
           />
-          {formik.touched.email && formik.errors.email ? (
+          {formik.touched.email && formik.errors.email && (
             <div className="text-red-500 text-sm">{formik.errors.email}</div>
-          ) : null}
+          )}
         </label>
 
         <label className="flex flex-col mb-4 gap-1">
-          <span className="font-bold">
-            Password <span className="text-red-400">*</span>
-          </span>
+          <span className="font-bold">Phone *</span>
           <input
-            type="password"
-            name="password"
-            placeholder="Password"
+            type="text"
+            placeholder="Phone Number"
             className="bg-white py-2 px-4 outline-none border border-transparent focus:border-[#7768E5]"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            value={formik.values.password}
+            {...formik.getFieldProps("phone")}
           />
-          {formik.touched.password && formik.errors.password ? (
-            <div className="text-red-500 text-sm">{formik.errors.password}</div>
-          ) : null}
+          {formik.touched.phone && formik.errors.phone && (
+            <div className="text-red-500 text-sm">{formik.errors.phone}</div>
+          )}
         </label>
 
-        <label className="flex flex-col mb-8 gap-1">
-          <span className="font-bold">
-            Confirm Password<span className="text-red-400">*</span>
-          </span>
+        <label className="flex flex-col mb-4 gap-1">
+          <span className="font-bold">Password *</span>
           <input
             type="password"
-            name="confirmPassword"
-            placeholder="Confirm Password"
+            placeholder="Password"
             className="bg-white py-2 px-4 outline-none border border-transparent focus:border-[#7768E5]"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            value={formik.values.confirmPassword}
+            {...formik.getFieldProps("password")}
           />
-          {formik.touched.confirmPassword && formik.errors.confirmPassword ? (
-            <div className="text-red-500 text-sm">
-              {formik.errors.confirmPassword}
-            </div>
-          ) : null}
+          {formik.touched.password && formik.errors.password && (
+            <div className="text-red-500 text-sm">{formik.errors.password}</div>
+          )}
         </label>
 
         <button
-          className="bg-[#7768E5] text-white py-2 px-10 rounded scale w-full"
+          className="bg-[#7768E5] text-white py-2 px-10 rounded w-full"
           type="submit"
           disabled={formik.isSubmitting}
         >
-          {formik.isSubmitting ? 'Loading...' : 'Create Account'}
+          {formik.isSubmitting ? "Loading..." : "Create Account"}
         </button>
       </form>
       <ToastContainer />
