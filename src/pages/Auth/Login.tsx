@@ -67,7 +67,7 @@ const Login = () => {
         },
       });
 
-      console.log('API Response:', response.data); // Log API response
+      console.log('API Response:', response.data);
       return response.data;
     } catch (error) {
       console.error('Error submitting form:', error);
