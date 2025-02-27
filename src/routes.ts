@@ -1,5 +1,5 @@
 import Home from './pages/Home';
-import Courses from './pages/Courses/Courses';
+import Courses from './pages/Courses/CoursesPage';
 import CourseDetails from './pages/Courses/CourseDetails';
 import Categories from './pages/Categories/Categories';
 import CategoryDesc from './pages/Categories/CategoryDesc';

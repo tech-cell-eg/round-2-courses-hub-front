@@ -62,9 +62,29 @@ export interface ICourse {
   instructor: Instructor;
   reviews: Review[];
 }
-
+export interface ICourse1 {
+  id: number;
+  name: string;
+  course_description: string;
+  what_will_i_learn: string;
+  category: string;
+  language: string;
+  curriculum: string[];
+  skill_level: string;
+  price: string;
+  course_day: string[];
+  // start_time: string;
+  // end_time: string;
+  enrolled_number: number;
+  image: string;
+  total_duration: string;
+  schedule: string;
+  rating: Rating;
+  instructor: Instructor;
+  reviews: Review[];
+}
 export interface ICoursesData {
-  courses: ICourse[];
+  courses: ICourse1[];
 }
 
 export interface ICategory {

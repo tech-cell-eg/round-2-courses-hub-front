@@ -4,53 +4,27 @@
             "id": 1,
             "name": "IT Statistics, Data Science, and Business Analysis",
             "image": "images/courses/course_1.png",
-            "description": "This course covers the fundamental statistical methods and data science techniques essential for business analysis. You will learn how to interpret data, apply predictive modeling, and make data-driven decisions using real-world case studies. The course includes hands-on projects with Python and R to ensure practical learning. Additionally, you will explore machine learning basics and how they integrate with business intelligence tools.",
-            "benefits": [
+            "course_description": "This course covers the fundamental statistical methods and data science techniques essential for business analysis. You will learn how to interpret data, apply predictive modeling, and make data-driven decisions using real-world case studies. The course includes hands-on projects with Python and R to ensure practical learning. Additionally, you will explore machine learning basics and how they integrate with business intelligence tools.",
+            "what_will_i_learn": 
                 "Understand core statistical concepts",
-                "Apply data analysis in business scenarios",
-                "Use Python and R for data science",
-                "Learn machine learning applications in business"
-            ],
             "rating": {
                 "value": 4.8,
                 "count": 1250
             },
             "category": "Business Management",
-            "price": {
-                "current": 99.99,
-                "discount": false,
-                "original": 99.99
-            },
+            "price": "5000",
             "schedule": "9:00 AM - 1:00 PM",
-            "enrolled": 3200,
+            "enrolled_number": 3200,
             "skill_level": "Intermediate",
-            "course_days": [
+            "course_day": [
                 "Monday",
                 "Wednesday",
                 "Friday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Statistics",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Data Analysis Techniques",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Predictive Modeling Basics",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Machine Learning for Business",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Hands-on Project with Python",
-                    "duration": "1:00:00"
-                }
+            "curriculum": [
+                 "Introduction to Statistics",
+                   "Data Analysis Techniques"
             ],
             "total_duration": "4h 45m",
             "instructor": {
@@ -75,52 +49,29 @@
             "id": 2,
             "name": "Bilginer Adobe Illustrator For Graphic Design",
             "image": "images/courses/course_2.png",
-            "description": "A comprehensive course designed for aspiring graphic designers who want to master Adobe Illustrator. This course will take you through the essentials of vector graphics, creating stunning illustrations, and designing professional branding materials. You will gain hands-on experience through practical projects and real-world applications. Additionally, you will explore advanced typography techniques and layout design.",
-            "benefits": [
+            "course_description": "A comprehensive course designed for aspiring graphic designers who want to master Adobe Illustrator. This course will take you through the essentials of vector graphics, creating stunning illustrations, and designing professional branding materials. You will gain hands-on experience through practical projects and real-world applications. Additionally, you will explore advanced typography techniques and layout design.",
+            "what_will_i_learn": 
                 "Learn Adobe Illustrator tools and techniques",
-                "Create stunning vector graphics",
-                "Design professional logos and branding materials",
-                "Master advanced typography and layout design"
-            ],
             "rating": {
                 "value": 4.7,
                 "count": 980
             },
             "category": "Graphic Design",
-            "price": {
-                "current": 39.99,
-                "discount": true,
-                "original": 79.99
-            },
+            "price": "2000",
             "schedule": "10:00 AM - 2:00 PM",
-            "enrolled": 2500,
+            "enrolled_number": 2500,
             "skill_level": "Beginner",
-            "course_days": [
+            "course_day": [
                 "Saturday",
                 "Sunday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Getting Started with Illustrator",
-                    "duration": "25:00"
-                },
-                {
-                    "lesson": "Working with Shapes and Colors",
-                    "duration": "35:00"
-                },
-                {
-                    "lesson": "Creating Vector Illustrations",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Logo and Branding Design",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Typography and Layout Techniques",
-                    "duration": "45:00"
-                }
+            "curriculum":  [
+                "Getting Started with Illustrator",
+                "Working with Shapes and Colors",
+                "Creating Vector Illustrations",
+                "Logo and Branding Design",
+                "Typography and Layout Techniques"
             ],
             "total_duration": "3h 15m",
             "instructor": {
@@ -145,52 +96,29 @@
             "id": 3,
             "name": "Advanced UI/UX Design Principles",
             "image": "images/courses/course_3.png",
-            "description": "This course dives deep into the principles of UI/UX design, focusing on creating user-friendly interfaces and enhancing user experience. You will learn about wireframing, prototyping, and usability testing. The course also covers advanced topics like responsive design and accessibility.",
-            "benefits": [
-                "Master UI/UX design principles",
-                "Create wireframes and prototypes",
-                "Conduct usability testing",
-                "Learn responsive and accessible design"
-            ],
+            "course_description": "This course dives deep into the principles of UI/UX design, focusing on creating user-friendly interfaces and enhancing user experience. You will learn about wireframing, prototyping, and usability testing. The course also covers advanced topics like responsive design and accessibility.",
+            "what_will_i_learn": 
+                "Learn responsive and accessible design",
             "rating": {
                 "value": 4.6,
                 "count": 1100
             },
             "category": "UI/UX Design",
-            "price": {
-                "current": 89.99,
-                "discount": false,
-                "original": 89.99
-            },
+            "price": "2000",
             "schedule": "11:00 AM - 3:00 PM",
-            "enrolled": 2800,
+            "enrolled_number": 2800,
             "skill_level": "Advanced",
-            "course_days": [
+            "course_day": [
                 "Tuesday",
                 "Thursday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to UI/UX Design",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Wireframing Basics",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Prototyping Techniques",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Usability Testing",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Responsive and Accessible Design",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+            "Introduction to UI/UX Design",
+            "Wireframing Basics",
+            "Prototyping Techniques",
+            "Usability Testing",
+            "Responsive and Accessible Design"
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -215,53 +143,31 @@
             "id": 4,
             "name": "Digital Photography Masterclass",
             "image": "images/courses/course_4.png",
-            "description": "This masterclass is designed for photography enthusiasts who want to take their skills to the next level. You will learn about composition, lighting, and post-processing techniques. The course also includes practical assignments to help you apply what you've learned.",
-            "benefits": [
-                "Learn advanced photography techniques",
-                "Understand composition and lighting",
-                "Master post-processing",
-                "Complete practical assignments"
-            ],
+            "course_description": "This masterclass is designed for photography enthusiasts who want to take their skills to the next level. You will learn about composition, lighting, and post-processing techniques. The course also includes practical assignments to help you apply what you've learned.",
+            "what_will_i_learn": 
+                "Complete practical assignments",
             "rating": {
                 "value": 4.9,
                 "count": 1300
             },
             "category": "Video & Photography",
-            "price": {
-                "current": 59.99,
-                "discount": true,
-                "original": 99.99
-            },
+            "price": "3000",
             "schedule": "2:00 PM - 6:00 PM",
-            "enrolled": 3500,
+            "enrolled_number": 3500,
             "skill_level": "Intermediate",
-            "course_days": [
+            "course_day": [
                 "Monday",
                 "Wednesday",
                 "Friday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Digital Photography",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Composition Techniques",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Lighting in Photography",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Post-Processing Basics",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Practical Assignments",
-                    "duration": "1:00:00"
-                }
+            "curriculum": [
+                 "Introduction to Digital Photography",
+                     "Composition Techniques",
+                     "Lighting in Photography",
+                     "Post-Processing Basics",
+                     "Practical Assignments"
+                    
             ],
             "total_duration": "4h 45m",
             "instructor": {
@@ -286,52 +192,30 @@
             "id": 5,
             "name": "Product Design Fundamentals",
             "image": "images/courses/course_5.png",
-            "description": "This course covers the basics of product design, focusing on user-centered design principles. You will learn about the design process, from ideation to prototyping and testing. The course also includes case studies of successful product designs.",
-            "benefits": [
-                "Understand user-centered design",
-                "Learn the product design process",
-                "Create prototypes",
-                "Analyze case studies"
-            ],
+            "course_description": "This course covers the basics of product design, focusing on user-centered design principles. You will learn about the design process, from ideation to prototyping and testing. The course also includes case studies of successful product designs.",
+            "what_will_i_learn": 
+                "Analyze case studies",
             "rating": {
                 "value": 4.5,
                 "count": 900
             },
             "category": "Product Design",
-            "price": {
-                "current": 79.99,
-                "discount": false,
-                "original": 79.99
-            },
+            "price":"1500",
             "schedule": "10:00 AM - 2:00 PM",
-            "enrolled": 2000,
+            "enrolled_number": 2000,
             "skill_level": "Beginner",
-            "course_days": [
+            "course_day": [
                 "Saturday",
                 "Sunday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Product Design",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "User-Centered Design",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Ideation Techniques",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Prototyping Basics",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Case Studies",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                 "Introduction to Product Design",
+                    "User-Centered Design",
+                     "Ideation Techniques",
+                    "Prototyping Basics",
+                     "Case Studies"
+                    
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -356,53 +240,30 @@
             "id": 6,
             "name": "Exclusive Management Techniques",
             "image": "images/courses/course_1.png",
-            "description": "This course is designed for managers who want to enhance their leadership skills. You will learn about effective communication, team management, and strategic planning. The course also includes real-world case studies and practical exercises.",
-            "benefits": [
-                "Enhance leadership skills",
-                "Learn effective communication",
-                "Master team management",
-                "Understand strategic planning"
-            ],
+            "course_description": "This course is designed for managers who want to enhance their leadership skills. You will learn about effective communication, team management, and strategic planning. The course also includes real-world case studies and practical exercises.",
+            "what_will_i_learn": 
+                "Understand strategic planning",
             "rating": {
                 "value": 4.7,
                 "count": 1200
             },
             "category": "Exclusive man",
-            "price": {
-                "current": 109.99,
-                "discount": false,
-                "original": 109.99
-            },
+            "price": "3500",
             "schedule": "9:00 AM - 1:00 PM",
-            "enrolled": 3000,
+            "enrolled_number": 3000,
             "skill_level": "Intermediate",
-            "course_days": [
+            "course_day": [
                 "Monday",
                 "Wednesday",
                 "Friday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Management",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Effective Communication",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Team Management",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Strategic Planning",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Case Studies and Exercises",
-                    "duration": "55:00"
-                }
+            "curriculum":  ["Introduction to Management",
+                     "Effective Communication",
+                     "Team Management",
+                     "Strategic Planning",
+                     "Case Studies and Exercises"
+                    
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -427,52 +288,30 @@
             "id": 7,
             "name": "Web Development Bootcamp",
             "image": "images/courses/course_2.png",
-            "description": "This bootcamp is designed for aspiring web developers. You will learn HTML, CSS, JavaScript, and backend development with Node.js. The course includes hands-on projects to build a portfolio.",
-            "benefits": [
-                "Learn HTML, CSS, and JavaScript",
-                "Understand backend development",
-                "Build a portfolio",
-                "Complete hands-on projects"
-            ],
+            "course_description": "This bootcamp is designed for aspiring web developers. You will learn HTML, CSS, JavaScript, and backend development with Node.js. The course includes hands-on projects to build a portfolio.",
+            "what_will_i_learn": 
+                "Complete hands-on projects",
             "rating": {
                 "value": 4.8,
                 "count": 1500
             },
             "category": "Development",
-            "price": {
-                "current": 129.99,
-                "discount": true,
-                "original": 199.99
-            },
+            "price": "1500",
             "schedule": "10:00 AM - 4:00 PM",
-            "enrolled": 4000,
+            "enrolled_number": 4000,
             "skill_level": "Beginner",
-            "course_days": [
+            "course_day": [
                 "Saturday",
                 "Sunday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Web Development",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "HTML Basics",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "CSS Styling",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "JavaScript Fundamentals",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Backend with Node.js",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                "Introduction to Web Development",
+                     "HTML Basics",
+                     "CSS Styling",
+                     "JavaScript Fundamentals",
+                    "Backend with Node.js"
+                    
             ],
             "total_duration": "5h 40m",
             "instructor": {
@@ -497,52 +336,26 @@
             "id": 8,
             "name": "Graphic Design with Photoshop",
             "image": "images/courses/course_3.png",
-            "description": "This course is designed for aspiring graphic designers who want to master Adobe Photoshop. You will learn about photo editing, digital painting, and creating stunning visuals. The course includes practical projects to build your portfolio.",
-            "benefits": [
-                "Master Adobe Photoshop",
-                "Learn photo editing techniques",
-                "Create digital paintings",
-                "Build a portfolio"
-            ],
+            "course_description": "This course is designed for aspiring graphic designers who want to master Adobe Photoshop. You will learn about photo editing, digital painting, and creating stunning visuals. The course includes practical projects to build your portfolio.",
+            "what_will_i_learn": 
+                "Build a portfolio",
             "rating": {
                 "value": 4.6,
                 "count": 1000
             },
             "category": "Graphic Design",
-            "price": {
-                "current": 49.99,
-                "discount": true,
-                "original": 99.99
-            },
+            "price": "5000",
             "schedule": "11:00 AM - 3:00 PM",
-            "enrolled": 2700,
+            "enrolled_number": 2700,
             "skill_level": "Beginner",
-            "course_days": [
+            "course_day": [
                 "Tuesday",
                 "Thursday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Photoshop",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Photo Editing Basics",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Digital Painting Techniques",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Creating Visuals",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Portfolio Projects",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                "Introduction to Photoshop"
+                   
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -567,53 +380,28 @@
             "id": 9,
             "name": "Advanced Business Analytics",
             "image": "images/courses/course_4.png",
-            "description": "This course is designed for professionals who want to deepen their understanding of business analytics. You will learn about data visualization, predictive analytics, and decision-making strategies. The course includes real-world case studies and practical exercises.",
-            "benefits": [
-                "Understand data visualization",
-                "Learn predictive analytics",
-                "Master decision-making strategies",
-                "Analyze real-world case studies"
-            ],
+            "course_description": "This course is designed for professionals who want to deepen their understanding of business analytics. You will learn about data visualization, predictive analytics, and decision-making strategies. The course includes real-world case studies and practical exercises.",
+            "what_will_i_learn": 
+                "Analyze real-world case studies",
             "rating": {
                 "value": 4.8,
                 "count": 1400
             },
             "category": "Business Management",
-            "price": {
-                "current": 119.99,
-                "discount": false,
-                "original": 119.99
-            },
+            "price": "2000",
             "schedule": "9:00 AM - 1:00 PM",
-            "enrolled": 3300,
+            "enrolled_number": 3300,
             "skill_level": "Advanced",
-            "course_days": [
+            "course_day": [
                 "Monday",
                 "Wednesday",
                 "Friday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Business Analytics",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Data Visualization Techniques",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Predictive Analytics",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Decision-Making Strategies",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Case Studies and Exercises",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                 "Decision-Making Strategies",
+                     "Case Studies and Exercises"
+                    
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -638,52 +426,29 @@
             "id": 10,
             "name": "Creative Arts and Design",
             "image": "images/courses/course_5.png",
-            "description": "This course is designed for creative individuals who want to explore various art forms and design techniques. You will learn about drawing, painting, and digital art. The course includes practical projects to showcase your creativity.",
-            "benefits": [
-                "Explore various art forms",
-                "Learn drawing and painting techniques",
-                "Master digital art",
-                "Showcase your creativity"
-            ],
+            "course_description": "This course is designed for creative individuals who want to explore various art forms and design techniques. You will learn about drawing, painting, and digital art. The course includes practical projects to showcase your creativity.",
+            "what_will_i_learn": 
+                "Showcase your creativity",
             "rating": {
                 "value": 4.5,
                 "count": 800
             },
             "category": "Arts & Design",
-            "price": {
-                "current": 69.99,
-                "discount": true,
-                "original": 129.99
-            },
+            "price": "3500",
             "schedule": "10:00 AM - 2:00 PM",
-            "enrolled": 2200,
+            "enrolled_number": 2200,
             "skill_level": "Beginner",
-            "course_days": [
+            "course_day": [
                 "Saturday",
                 "Sunday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Creative Arts",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Drawing Techniques",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Painting Basics",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Digital Art",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Creative Projects",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                "Drawing Techniques",
+                    "Painting Basics",
+                     "Digital Art",
+                     "Creative Projects"
+                   
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -708,53 +473,27 @@
             "id": 11,
             "name": "Video Editing with Premiere Pro",
             "image": "images/courses/course_1.png",
-            "description": "This course is designed for aspiring video editors who want to master Adobe Premiere Pro. You will learn about video editing techniques, color grading, and audio editing. The course includes practical projects to build your portfolio.",
-            "benefits": [
-                "Master Adobe Premiere Pro",
-                "Learn video editing techniques",
-                "Understand color grading",
-                "Edit audio for videos"
-            ],
+            "course_description": "This course is designed for aspiring video editors who want to master Adobe Premiere Pro. You will learn about video editing techniques, color grading, and audio editing. The course includes practical projects to build your portfolio.",
+            "what_will_i_learn": 
+                "Edit audio for videos",
             "rating": {
                 "value": 4.7,
                 "count": 1100
             },
             "category": "Video & Photography",
-            "price": {
-                "current": 59.99,
-                "discount": true,
-                "original": 99.99
-            },
+            "price": "4000",
             "schedule": "2:00 PM - 6:00 PM",
-            "enrolled": 2600,
+            "enrolled_number": 2600,
             "skill_level": "Intermediate",
-            "course_days": [
+            "course_day": [
                 "Monday",
                 "Wednesday",
                 "Friday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Premiere Pro",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Video Editing Basics",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Color Grading Techniques",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Audio Editing",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Portfolio Projects",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                 "Portfolio Projects"
+                    
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -779,52 +518,26 @@
             "id": 12,
             "name": "Product Management Essentials",
             "image": "images/courses/course_2.png",
-            "description": "This course is designed for aspiring product managers. You will learn about product lifecycle, market research, and product strategy. The course includes real-world case studies and practical exercises.",
-            "benefits": [
-                "Understand product lifecycle",
-                "Learn market research techniques",
-                "Master product strategy",
-                "Analyze real-world case studies"
-            ],
+            "course_description": "This course is designed for aspiring product managers. You will learn about product lifecycle, market research, and product strategy. The course includes real-world case studies and practical exercises.",
+            "what_will_i_learn": 
+                "Analyze real-world case studies",
             "rating": {
                 "value": 4.6,
                 "count": 900
             },
             "category": "Product Design",
-            "price": {
-                "current": 89.99,
-                "discount": false,
-                "original": 89.99
-            },
+            "price":"3500",
             "schedule": "10:00 AM - 2:00 PM",
-            "enrolled": 2100,
+            "enrolled_number": 2100,
             "skill_level": "Beginner",
-            "course_days": [
+            "course_day": [
                 "Saturday",
                 "Sunday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Product Management",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Product Lifecycle",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Market Research Techniques",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Product Strategy",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Case Studies and Exercises",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                 "Case Studies and Exercises"
+                   
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -849,53 +562,30 @@
             "id": 13,
             "name": "Exclusive Leadership Training",
             "image": "images/courses/course_3.png",
-            "description": "This course is designed for leaders who want to enhance their leadership skills. You will learn about effective communication, team motivation, and strategic decision-making. The course includes real-world case studies and practical exercises.",
-            "benefits": [
-                "Enhance leadership skills",
-                "Learn effective communication",
-                "Master team motivation",
-                "Understand strategic decision-making"
-            ],
+            "course_description": "This course is designed for leaders who want to enhance their leadership skills. You will learn about effective communication, team motivation, and strategic decision-making. The course includes real-world case studies and practical exercises.",
+            "what_will_i_learn": 
+                "Understand strategic decision-making",
             "rating": {
                 "value": 4.8,
                 "count": 1300
             },
             "category": "Exclusive man",
-            "price": {
-                "current": 109.99,
-                "discount": false,
-                "original": 109.99
-            },
+            "price": "4000",
             "schedule": "9:00 AM - 1:00 PM",
-            "enrolled": 3100,
+            "enrolled_number": 3100,
             "skill_level": "Intermediate",
-            "course_days": [
+            "course_day": [
                 "Monday",
                 "Wednesday",
                 "Friday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Leadership",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Effective Communication",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Team Motivation Techniques",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Strategic Decision-Making",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Case Studies and Exercises",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+               "Effective Communication",
+                    "Team Motivation Techniques",
+                     "Strategic Decision-Making",
+                     "Case Studies and Exercises"
+                    
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -920,52 +610,30 @@
             "id": 14,
             "name": "Full-Stack Web Development",
             "image": "images/courses/course_4.png",
-            "description": "This course is designed for aspiring full-stack developers. You will learn about front-end and back-end development, including HTML, CSS, JavaScript, and Node.js. The course includes hands-on projects to build a portfolio.",
-            "benefits": [
-                "Learn front-end development",
-                "Understand back-end development",
-                "Build a portfolio",
-                "Complete hands-on projects"
-            ],
+            "course_description": "This course is designed for aspiring full-stack developers. You will learn about front-end and back-end development, including HTML, CSS, JavaScript, and Node.js. The course includes hands-on projects to build a portfolio.",
+            "what_will_i_learn":
+                "Complete hands-on projects",
             "rating": {
                 "value": 4.9,
                 "count": 1600
             },
             "category": "Development",
-            "price": {
-                "current": 149.99,
-                "discount": true,
-                "original": 199.99
-            },
+            "price": "3200",
             "schedule": "10:00 AM - 4:00 PM",
-            "enrolled": 4200,
+            "enrolled_number": 4200,
             "skill_level": "Intermediate",
-            "course_days": [
+            "course_day": [
                 "Saturday",
                 "Sunday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Full-Stack Development",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Front-End Development",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Back-End Development",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "JavaScript and Node.js",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Portfolio Projects",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                "Introduction to Full-Stack Development",
+                     "Front-End Development",
+                     "Back-End Development",
+                     "JavaScript and Node.js",
+                     "Portfolio Projects"
+                    
             ],
             "total_duration": "5h 40m",
             "instructor": {
@@ -990,52 +658,30 @@
             "id": 15,
             "name": "Advanced Graphic Design",
             "image": "images/courses/course_5.png",
-            "description": "This course is designed for experienced graphic designers who want to take their skills to the next level. You will learn about advanced design techniques, typography, and branding. The course includes practical projects to build your portfolio.",
-            "benefits": [
-                "Master advanced design techniques",
-                "Learn typography and branding",
-                "Create professional designs",
-                "Build a portfolio"
-            ],
+            "course_description": "This course is designed for experienced graphic designers who want to take their skills to the next level. You will learn about advanced design techniques, typography, and branding. The course includes practical projects to build your portfolio.",
+            "what_will_i_learn":
+                "Build a portfolio",
             "rating": {
                 "value": 4.7,
                 "count": 1000
             },
             "category": "Graphic Design",
-            "price": {
-                "current": 79.99,
-                "discount": true,
-                "original": 129.99
-            },
+            "price": "1700",
             "schedule": "11:00 AM - 3:00 PM",
-            "enrolled": 2400,
+            "enrolled_number": 2400,
             "skill_level": "Advanced",
-            "course_days": [
+            "course_day": [
                 "Tuesday",
                 "Thursday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Advanced Design",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Typography Techniques",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Branding and Identity",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Professional Design Projects",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Portfolio Building",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                 "Introduction to Advanced Design",
+                   "Typography Techniques",
+                     "Branding and Identity",
+                    "Professional Design Projects",
+                     "Portfolio Building"
+                   
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -1060,53 +706,30 @@
             "id": 16,
             "name": "Business Strategy and Planning",
             "image": "images/courses/course_1.png",
-            "description": "This course is designed for business professionals who want to enhance their strategic planning skills. You will learn about market analysis, competitive strategy, and business planning. The course includes real-world case studies and practical exercises.",
-            "benefits": [
-                "Understand market analysis",
-                "Learn competitive strategy",
-                "Master business planning",
-                "Analyze real-world case studies"
-            ],
+            "course_description": "This course is designed for business professionals who want to enhance their strategic planning skills. You will learn about market analysis, competitive strategy, and business planning. The course includes real-world case studies and practical exercises.",
+            "what_will_i_learn": 
+                "Analyze real-world case studies",
             "rating": {
                 "value": 4.8,
                 "count": 1400
             },
             "category": "Business Management",
-            "price": {
-                "current": 119.99,
-                "discount": false,
-                "original": 119.99
-            },
+            "price": "1500",
             "schedule": "9:00 AM - 1:00 PM",
-            "enrolled": 3300,
+            "enrolled_number": 3300,
             "skill_level": "Advanced",
-            "course_days": [
+            "course_day": [
                 "Monday",
                 "Wednesday",
                 "Friday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Business Strategy",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Market Analysis Techniques",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Competitive Strategy",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Business Planning",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Case Studies and Exercises",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                 "Market Analysis Techniques",
+                    "Competitive Strategy",
+                   "Business Planning",
+                    "Case Studies and Exercises"
+                   
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -1131,52 +754,27 @@
             "id": 17,
             "name": "Creative Writing and Storytelling",
             "image": "images/courses/course_2.png",
-            "description": "This course is designed for aspiring writers who want to enhance their creative writing and storytelling skills. You will learn about character development, plot structure, and narrative techniques. The course includes practical writing exercises.",
-            "benefits": [
-                "Enhance creative writing skills",
-                "Learn character development",
-                "Master plot structure",
-                "Practice narrative techniques"
-            ],
+            "course_description": "This course is designed for aspiring writers who want to enhance their creative writing and storytelling skills. You will learn about character development, plot structure, and narrative techniques. The course includes practical writing exercises.",
+            "what_will_i_learn": 
+                "Practice narrative techniques",
             "rating": {
                 "value": 4.5,
                 "count": 800
             },
             "category": "Arts & Design",
-            "price": {
-                "current": 69.99,
-                "discount": true,
-                "original": 129.99
-            },
+            "price": "3500",
             "schedule": "10:00 AM - 2:00 PM",
-            "enrolled": 2200,
+            "enrolled_number": 2200,
             "skill_level": "Beginner",
-            "course_days": [
+            "course_day": [
                 "Saturday",
                 "Sunday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Creative Writing",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Character Development",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Plot Structure",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Narrative Techniques",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Writing Exercises",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                 "Narrative Techniques",
+                     "Writing Exercises"
+                   
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -1201,53 +799,29 @@
             "id": 18,
             "name": "Photography for Beginners",
             "image": "images/courses/course_3.png",
-            "description": "This course is designed for beginners who want to learn the basics of photography. You will learn about camera settings, composition, and lighting. The course includes practical assignments to help you apply what you've learned.",
-            "benefits": [
-                "Learn camera settings",
-                "Understand composition and lighting",
-                "Complete practical assignments",
-                "Build a photography portfolio"
-            ],
+            "course_description": "This course is designed for beginners who want to learn the basics of photography. You will learn about camera settings, composition, and lighting. The course includes practical assignments to help you apply what you've learned.",
+            "what_will_i_learn": 
+                "Build a photography portfolio",
             "rating": {
                 "value": 4.7,
                 "count": 1100
             },
             "category": "Video & Photography",
-            "price": {
-                "current": 49.99,
-                "discount": true,
-                "original": 99.99
-            },
+            "price": "3500",
             "schedule": "2:00 PM - 6:00 PM",
-            "enrolled": 2500,
+            "enrolled_number": 2500,
             "skill_level": "Beginner",
-            "course_days": [
+            "course_day": [
                 "Monday",
                 "Wednesday",
                 "Friday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Photography",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Camera Settings",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Composition Techniques",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Lighting Basics",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Practical Assignments",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                 "Composition Techniques",
+                     "Lighting Basics",
+                     "Practical Assignments"
+                    
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -1272,52 +846,29 @@
             "id": 19,
             "name": "Product Design and Innovation",
             "image": "images/courses/course_4.png",
-            "description": "This course is designed for product designers who want to learn about innovation and design thinking. You will learn about user research, prototyping, and product testing. The course includes real-world case studies and practical exercises.",
-            "benefits": [
-                "Understand design thinking",
-                "Learn user research techniques",
-                "Master prototyping",
-                "Analyze real-world case studies"
-            ],
+            "course_description": "This course is designed for product designers who want to learn about innovation and design thinking. You will learn about user research, prototyping, and product testing. The course includes real-world case studies and practical exercises.",
+            "what_will_i_learn": 
+                "Analyze real-world case studies",
             "rating": {
                 "value": 4.6,
                 "count": 900
             },
             "category": "Product Design",
-            "price": {
-                "current": 89.99,
-                "discount": false,
-                "original": 89.99
-            },
+            "price": "5000",
             "schedule": "10:00 AM - 2:00 PM",
-            "enrolled": 2100,
+            "enrolled_number": 2100,
             "skill_level": "Intermediate",
-            "course_days": [
+            "course_day": [
                 "Saturday",
                 "Sunday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Design Thinking",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "User Research Techniques",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Prototyping Basics",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Product Testing",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Case Studies and Exercises",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                "Introduction to Design Thinking",
+                "User Research Techniques",
+                "Prototyping Basics",
+                "Product Testing",
+                "Case Studies and Exercises"
             ],
             "total_duration": "4h 40m",
             "instructor": {
@@ -1342,53 +893,28 @@
             "id": 20,
             "name": "Exclusive Executive Leadership",
             "image": "images/courses/course_5.png",
-            "description": "This course is designed for executives who want to enhance their leadership and decision-making skills. You will learn about strategic leadership, organizational behavior, and change management. The course includes real-world case studies and practical exercises.",
-            "benefits": [
-                "Enhance leadership skills",
-                "Learn strategic leadership",
-                "Understand organizational behavior",
-                "Master change management"
-            ],
+            "course_description": "This course is designed for executives who want to enhance their leadership and decision-making skills. You will learn about strategic leadership, organizational behavior, and change management. The course includes real-world case studies and practical exercises.",
+            "what_will_i_learn": 
+                "Master change management",
             "rating": {
                 "value": 4.9,
                 "count": 1500
             },
             "category": "Exclusive man",
-            "price": {
-                "current": 149.99,
-                "discount": false,
-                "original": 149.99
-            },
+            "price": "3000",
             "schedule": "9:00 AM - 1:00 PM",
-            "enrolled": 3500,
+            "enrolled_number": 3500,
             "skill_level": "Advanced",
-            "course_days": [
+            "course_day": [
                 "Monday",
                 "Wednesday",
                 "Friday"
             ],
             "language": "English",
-            "contents": [
-                {
-                    "lesson": "Introduction to Executive Leadership",
-                    "duration": "30:00"
-                },
-                {
-                    "lesson": "Strategic Leadership",
-                    "duration": "40:00"
-                },
-                {
-                    "lesson": "Organizational Behavior",
-                    "duration": "50:00"
-                },
-                {
-                    "lesson": "Change Management",
-                    "duration": "45:00"
-                },
-                {
-                    "lesson": "Case Studies and Exercises",
-                    "duration": "55:00"
-                }
+            "curriculum": [
+                 "Organizational Behavior",
+                     "Case Studies and Exercises"
+                    
             ],
             "total_duration": "4h 40m",
             "instructor": {

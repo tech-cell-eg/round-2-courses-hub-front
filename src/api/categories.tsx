@@ -16,15 +16,15 @@ import CategoryImage from "../assets/category_image.png";
 const categories: ICategory[] = [
     {
         id: 1,
-        name: "Business Management",
+        name: "Data Science",
         definition:
-            "Business management involves planning, organizing, and overseeing business operations to achieve organizational goals.",
+            "Data Science involves planning, organizing, and overseeing business operations to achieve organizational goals.",
         icon: FaBusinessTime,
         image: CategoryImage,
         videoLink:
             "https://www.youtube.com/embed/hyQtg-yMlOs?si=JmQTSvF8RKDEkeKx",
         longDescription:
-            "Business management focuses on strategies for effective leadership, resource allocation, and decision-making to drive business success.",
+            "Data Science focuses on strategies for effective leadership, resource allocation, and decision-making to drive business success.",
         shortDescription: "Planning and organizing business operations.",
         requirements:
             "Basic understanding of business principles and leadership skills.",
@@ -38,7 +38,7 @@ const categories: ICategory[] = [
     },
     {
         id: 2,
-        name: "Arts & Design",
+        name: "Machine Learning",
         definition:
             "Arts & Design involves creating visual and creative works to express ideas and emotions.",
         icon: FaPalette,
@@ -59,7 +59,7 @@ const categories: ICategory[] = [
     },
     {
         id: 3,
-        name: "Development",
+        name: "Web Development",
         definition:
             "Development involves creating software, applications, and systems to solve problems and improve efficiency.",
         icon: FaCode,
@@ -101,7 +101,7 @@ const categories: ICategory[] = [
     },
     {
         id: 5,
-        name: "Graphic Design",
+        name: "Cybersecurity",
         definition:
             "Graphic Design involves creating visual content to communicate messages effectively.",
         icon: MdDesignServices,
@@ -128,7 +128,7 @@ const categories: ICategory[] = [
     },
     {
         id: 6,
-        name: "Digital Marketing",
+        name: "Cloud Computing",
         definition:
             "Digital Marketing involves promoting products or services using digital channels like social media, email, and search engines.",
         icon: RiMarkPenFill,
@@ -150,7 +150,7 @@ const categories: ICategory[] = [
     },
     {
         id: 7,
-        name: "Exclusive Man",
+        name: "DevOps ",
         definition:
             "Exclusive Man focuses on personal development, style, and leadership for men.",
         icon: GiClothes,
@@ -176,7 +176,7 @@ const categories: ICategory[] = [
     },
     {
         id: 8,
-        name: "Product Design",
+        name: "Game Development",
         definition:
             "Product Design involves creating functional and aesthetically pleasing products for users.",
         icon: MdDesignServices,
@@ -197,7 +197,7 @@ const categories: ICategory[] = [
     },
     {
         id: 9,
-        name: "Video & Photography",
+        name: "Blockchain",
         definition:
             "Video & Photography involves capturing and editing visual content for various purposes.",
         icon: MdVideoCameraBack,
@@ -218,7 +218,7 @@ const categories: ICategory[] = [
     },
     {
         id: 10,
-        name: "Mobile Application Development",
+        name: "Mobile App Development",
         definition:
             "Mobile Application Development involves creating apps for smartphones and tablets.",
         icon: FaMobileAlt,

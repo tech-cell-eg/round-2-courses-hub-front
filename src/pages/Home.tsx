@@ -6,7 +6,7 @@ import TestimonialSlider from '../components/TestimonialSlider';
 import WhyUs from '../components/WhyUs';
 import Blog from './Blog/Blog';
 import Categories from './Categories/Categories';
-import Courses from './Courses/Courses';
+import Courses from './Courses/CoursesPage';
 
 import TestimonialImageBg from '../assets/testimonial_home_bg.jpg';
 import InstructorHome from '../components/InstructorHome';

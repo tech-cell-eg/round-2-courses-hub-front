@@ -5,22 +5,85 @@ import { ICategory } from "../../types/types";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import axios from "axios";
+import Courses from "../../components/Courses";
+import { ICourse1 } from "../../types/types";
 
 const CategoryDesc = () => {
     const { id } = useParams<{ id: string }>();
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const [category, setCategory] = useState<ICategory | undefined>();
+    const [categoryName, setCategoryName] = useState<string>();
+    const [courses, setCourses] = useState<ICourse1[]>([]);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<string | null>(null);
 
+
+    // useEffect(() => {
+    //     const category = categories.find((category) => `${category.id}` === id);
+    //     if (!category) navigate("/404/");
+    //     setCategory(category);
+    //     window.scrollTo({
+    //         top: 0,
+    //         behavior: "smooth",
+    //     });
+    // }, [id, navigate]);
+
+    const fetchCoursesByCategory = async () => {
+        try {
+            const response = await axios.get(
+                `https://round2-courses-hub.digital-vision-solutions.com/api/course/${id}`
+            );
+            if (response.data.status === 200 && response.data.data.length > 0) {
+                const transformedCourses = response.data.data.map((course: ICourse1) => ({
+                    id: course.id,
+                    name: course.name,
+                    course_description: course.course_description,
+                    what_will_i_learn: course.what_will_i_learn,
+                    category: course.category,
+                    language: course.language,
+                    curriculum: course.curriculum,
+                    skill_level: course.skill_level,
+                    price: course.price,
+                    course_day: course.course_day,
+                    // start_time: course.start_time,
+                    // end_time: course.end_time,
+                    enrolled_number: course.enrolled_number,
+                    image: course.image||"images/courses/course_1.png",
+                    total_duration: course.total_duration||"4h 45m",
+                    schedule: course.schedule || "9:00 AM - 1:00 PM",
+                    rating: course.rating || {
+                        "value": 4.8,
+                        "count": 1250
+                    },
+                    instructor: course.instructor||{
+                        "name": "Dr. Sarah Williams",
+                        "image": "images/courses/instructor_1.png",
+                        "id": 101
+                    },
+                    reviews: course.reviews||{
+                        "name": "Alice Johnson",
+                        "rating": 5,
+                        "review": "Very informative and well-structured."
+                    },
+                }));
+                setCourses(transformedCourses);
+                setCategoryName(transformedCourses[0].category);
+            } else {
+                setError("No courses found for this category.");
+            }
+        } catch (error) {
+            setError("Failed to fetch courses.");
+        } finally {
+            setLoading(false);
+        }
+    };
     useEffect(() => {
-        const category = categories.find((category) => `${category.id}` === id);
-        if (!category) navigate("/404/");
-        setCategory(category);
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-        });
-    }, [id, navigate]);
+
+        fetchCoursesByCategory();
+    }, [id]);
+
     return (
         <div>
             <div className="py-20 grid grid-cols-7 gap-10">
@@ -170,16 +233,16 @@ const CategoryDesc = () => {
                         <ul className="flex flex-col gap-2">
                             {categories.map((category) => (
                                 <Link
+                                    key={category.id}
                                     to={`/categories/${category.id}`}
                                     className="scale"
                                 >
                                     <li
                                         key={category.id}
-                                        className={`${
-                                            category.id + "" === id
+                                        className={`${category.id + "" === id
                                                 ? "bg-[#7768E5] text-white"
                                                 : ""
-                                        } hover:bg-[#7768E5] hover:text-white w-full h-full  p-2 border border-[#E2E1E1] duration-300 transition-all flex justify-between items-center gap-1`}
+                                            } hover:bg-[#7768E5] hover:text-white w-full h-full  p-2 border border-[#E2E1E1] duration-300 transition-all flex justify-between items-center gap-1`}
                                     >
                                         {category.name}
                                         <MdKeyboardArrowRight />
@@ -208,6 +271,15 @@ const CategoryDesc = () => {
                     </div>
                 </div>
             </div>
+            {loading ? (
+                <p className="text-center text-gray-500">جارٍ تحميل الرحلات...</p>
+            ) : error ? (
+                <p className="text-center text-red-500 mb-8">{error}</p>
+            ) : (
+                <div style={{ padding: "20px" }}>
+                    <h2 className="mb-5 font-bold text-xl">Courses in This Category</h2>
+                    <Courses courses={courses} showMore={false} title={categoryName}/>
+                </div>)}
         </div>
     );
 };

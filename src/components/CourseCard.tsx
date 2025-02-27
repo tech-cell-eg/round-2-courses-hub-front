@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import BackgroundImage from "../assets/course_card_bg.png";
-import { ICourse } from "../types/types";
+import { ICourse1 } from "../types/types";
 import LinkWithArrow from "./LinkWithArrow";
 import StarRating from "./StarRating";
 import { IoIosPaper, IoIosClock, IoMdPerson } from "react-icons/io";
@@ -9,7 +9,7 @@ export default function CourseCard({
     course,
     idName,
 }: {
-    course: ICourse;
+    course: ICourse1;
     idName?: string;
 }) {
     return (
@@ -44,7 +44,7 @@ export default function CourseCard({
                         </div>
                     </div>
                     <span className="text-sm text-[#704FE6] font-bold">
-                        ${course.price.current}
+                        ${course.price}
                     </span>
                 </div>
                 <Link
@@ -57,7 +57,7 @@ export default function CourseCard({
                     <div className="flex gap-1 items-center">
                         <IoIosPaper />
                         <span className="text-sm">
-                            Lesson {course.contents.length}
+                            Lesson {course.curriculum.length}
                         </span>
                     </div>
                     <div className="flex gap-1 items-center">
@@ -67,7 +67,7 @@ export default function CourseCard({
                     <div className="flex gap-1 items-center">
                         <IoMdPerson />
                         <span className="text-sm">
-                            Students {course.enrolled}+
+                            Students {course.enrolled_number}+
                         </span>
                     </div>
                 </div>
