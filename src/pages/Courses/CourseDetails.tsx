@@ -58,7 +58,7 @@ const CourseDetails = () => {
         let config = {
           method: 'post',
           maxBodyLength: Infinity,
-          url: `https://round2-courses-hub.digital-vision-solutions.com/api/student/cart/add/${course.id}`,
+          url: `${API_URL}/student/cart/add/${course.id}`,
           headers: {
             Accept: 'application/json',
             Authorization: `Bearer ${token}`,
