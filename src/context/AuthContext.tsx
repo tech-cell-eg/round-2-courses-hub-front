@@ -2,33 +2,48 @@ import { createContext, useContext, useState, useEffect } from "react";
 
 interface AuthContextType {
   token: string | null;
-  setToken: (token: string | null) => void;
+  role: string | null;
+  setToken: (token: string | null, role: string | null) => void;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [token, setTokenState] = useState<string | null>(null);
+  const [role, setRole] = useState<string | null>(null);
 
-  const setToken = (newToken: string | null) => {
+  const setToken = (newToken: string | null, userRole: string | null) => {
     setTokenState(newToken);
+    setRole(userRole);
+
     if (newToken) {
-      localStorage.setItem("student_token", newToken);
+      if (userRole === "student") {
+        localStorage.setItem("student_token", newToken);
+        localStorage.setItem("role", "student");
+      } else if (userRole === "instructor") {
+        localStorage.setItem("instructor_token", newToken);
+        localStorage.setItem("role", "instructor");
+      }
     } else {
-      // localStorage.removeItem("student_token");
+      localStorage.removeItem("student_token");
+      localStorage.removeItem("instructor_token");
+      localStorage.removeItem("role");
     }
   };
 
   useEffect(() => {
-    const savedToken = localStorage.getItem("student_token");
-    if (savedToken) {
-      setTokenState(savedToken);
+    const savedRole = localStorage.getItem("role");
+    if (savedRole === "student") {
+      setTokenState(localStorage.getItem("student_token"));
+      setRole("student");
+    } else if (savedRole === "instructor") {
+      setTokenState(localStorage.getItem("instructor_token"));
+      setRole("instructor");
     }
   }, []);
- 
 
   return (
-    <AuthContext.Provider value={{ token, setToken }}>
+    <AuthContext.Provider value={{ token, role, setToken }}>
       {children}
     </AuthContext.Provider>
   );
