@@ -5,22 +5,51 @@ import { ICategory } from "../../types/types";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import axios from "axios";
+import Courses from "../../components/CourseCat";
+import { ICourse1 } from "../../types/types";
 
 const CategoryDesc = () => {
     const { id } = useParams<{ id: string }>();
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const [category, setCategory] = useState<ICategory | undefined>();
+    const [courses, setCourses] = useState<ICourse1[]>([]);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<string | null>(null);
 
-    useEffect(() => {
-        const category = categories.find((category) => `${category.id}` === id);
-        if (!category) navigate("/404/");
-        setCategory(category);
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-        });
-    }, [id, navigate]);
+
+    // useEffect(() => {
+    //     const category = categories.find((category) => `${category.id}` === id);
+    //     if (!category) navigate("/404/");
+    //     setCategory(category);
+    //     window.scrollTo({
+    //         top: 0,
+    //         behavior: "smooth",
+    //     });
+    // }, [id, navigate]);
+
+    const fetchCoursesByCategory = async () => {
+        try {
+            const response = await axios.get(
+                `https://round2-courses-hub.digital-vision-solutions.com/api/course/${id}`
+            );
+            if (response.data.status === 200 && response.data.data.length > 0) {
+                setCourses(response.data.data);
+            } else {
+                setError("No courses found for this category.");
+            }
+        } catch (error) {
+            setError("Failed to fetch courses.");
+        } finally {
+            setLoading(false);
+        }
+    };
+        useEffect(() => {
+            
+            fetchCoursesByCategory();
+        }, [id]);
+    
     return (
         <div>
             <div className="py-20 grid grid-cols-7 gap-10">
@@ -170,6 +199,7 @@ const CategoryDesc = () => {
                         <ul className="flex flex-col gap-2">
                             {categories.map((category) => (
                                 <Link
+                                key={category.id}
                                     to={`/categories/${category.id}`}
                                     className="scale"
                                 >
@@ -208,6 +238,15 @@ const CategoryDesc = () => {
                     </div>
                 </div>
             </div>
+            {loading ? (
+                    <p className="text-center text-gray-500">جارٍ تحميل الرحلات...</p>
+                ) : error ? (
+                    <p className="text-center text-red-500 mb-8">{error}</p>
+                ) : (
+                <div style={{ padding: "20px" }}>
+                    <h2>Courses in This Category</h2>
+                    <Courses courses={courses} showMore={false} />
+                </div>)}
         </div>
     );
 };

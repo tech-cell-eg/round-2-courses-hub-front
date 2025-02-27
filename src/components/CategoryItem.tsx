@@ -20,6 +20,7 @@ export default function CategoryItem({
 }) {
     const colorCode = color || "#1B75E8";
     const colorBgCode = bgColor || "#EAF6FF";
+    
     return (
         <Link
             to={to}
