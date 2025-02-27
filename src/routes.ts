@@ -24,6 +24,7 @@ import Register from './pages/Auth/Register';
 import NotFound from './pages/NotFound';
 import Events from './pages/Events/Events';
 import EventDetails from './pages/Events/EventDetails';
+import CourseCartPage from './pages/Courses/CourseCartPage';
 
 interface Route {
   path: string;
@@ -34,6 +35,7 @@ interface Route {
 export const routes: Route[] = [
   { path: '/', component: Home, pageName: 'Home' },
   { path: '/courses', component: Courses, pageName: 'Courses' },
+  { path: '/courses/cart', component: CourseCartPage, pageName: 'Courses Cart' },
   {
     path: '/courses/:id',
     component: CourseDetails,

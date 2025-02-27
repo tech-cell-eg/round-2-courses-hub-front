@@ -3,8 +3,12 @@ import { InstructorRegistrationProps } from "../../types/types";
 import { useNavigate } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import axios from "axios";
+import { useAuth } from "../../context/AuthContext";
+
 
 export default function InstructorForm() {
+  const { setToken, token } = useAuth();
+
   const navigate = useNavigate();
   const {
     register,
@@ -12,6 +16,7 @@ export default function InstructorForm() {
     formState: { errors },
     watch,
   } = useForm<InstructorRegistrationProps>();
+  console.log("token", token);
 
   const API_URL =
     import.meta.env.VITE_BASE_URL ||
@@ -42,8 +47,8 @@ export default function InstructorForm() {
       formData.append("password", data.password);
       formData.append("confirm_password", data.confirm_password);
       formData.append("intended_study_field", data.intended_study_field);
-      formData.append("degree-sought", data.degree_sought); // ✅ Fixed hyphenation
-      formData.append("begin-studies", data.begin_studies); // ✅ Fixed hyphenation
+      formData.append("degree-sought", data.degree_sought); 
+      formData.append("begin-studies", data.begin_studies); 
 
       // Handle File Upload
       const file = watch("choose_file")?.[0];
@@ -52,7 +57,7 @@ export default function InstructorForm() {
 
         formData.append("choose_file", file.name);
       } else {
-        formData.append("choose_file", "profile.jpg"); // ✅ Sends filename only if needed
+        formData.append("choose_file", "profile.jpg");
       }
 
       await submitForm(formData);
@@ -71,6 +76,8 @@ export default function InstructorForm() {
     });
 
     console.log("Response:", response.data);
+    setToken(response.data.data.token, "instructor");
+
     alert("Registration Successful!");
     navigate("/");
   };
