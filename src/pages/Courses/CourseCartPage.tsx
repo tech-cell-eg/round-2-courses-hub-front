@@ -7,7 +7,8 @@ import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify';
 
 const CourseCartPage = () => {
-  const { cart, totalCartPrice, removeFromCart } = useCourserCart();
+  // const { cart, totalCartPrice, removeFromCart } = useCourserCart();
+  const { removeFromCart } = useCourserCart();
   const { token } = useAuth();
   interface Course {
     id: number;
