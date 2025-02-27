@@ -25,7 +25,6 @@ export default function InstructorForm() {
   const onSubmit = async (data: InstructorRegistrationProps) => {
     try {
       console.log("Submitting Data:", data);
-      // if(data.)
 
       if (data.password.length < 8) {
         alert("Password must be at least 8 characters.");
@@ -77,7 +76,7 @@ export default function InstructorForm() {
     });
 
     console.log("Response:", response.data);
-    setToken(response.data.data.token);
+    setToken(response.data.data.token, "instructor");
 
     alert("Registration Successful!");
     navigate("/");
