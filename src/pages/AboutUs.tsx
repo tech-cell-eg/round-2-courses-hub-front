@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa6";
-import Courses from "./Courses/Courses";
+import Courses from "./Courses/CoursesPage";
 import Instructors from "./Instructors/Instructors";
 import Testimonial from "./Testimonial";
 import { Link } from "react-router-dom";

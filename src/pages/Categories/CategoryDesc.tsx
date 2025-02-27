@@ -1,14 +1,12 @@
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import categories from "../../api/categories";
-import data from "../../api/courses.json";
-import { ICoursesData } from "../../types/types";
 import { ICategory } from "../../types/types";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import axios from "axios";
-import Courses from "../../components/CourseCat";
+import Courses from "../../components/Courses";
 import { ICourse1 } from "../../types/types";
 
 const CategoryDesc = () => {
@@ -16,6 +14,7 @@ const CategoryDesc = () => {
     // const navigate = useNavigate();
 
     const [category, setCategory] = useState<ICategory | undefined>();
+    const [categoryName, setCategoryName] = useState<string>();
     const [courses, setCourses] = useState<ICourse1[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
@@ -37,8 +36,6 @@ const CategoryDesc = () => {
                 `https://round2-courses-hub.digital-vision-solutions.com/api/course/${id}`
             );
             if (response.data.status === 200 && response.data.data.length > 0) {
-                const coursesData: ICoursesData = data;
-                console.log(coursesData)
                 const transformedCourses = response.data.data.map((course: ICourse1) => ({
                     id: course.id,
                     name: course.name,
@@ -50,17 +47,29 @@ const CategoryDesc = () => {
                     skill_level: course.skill_level,
                     price: course.price,
                     course_day: course.course_day,
-                    start_time: course.start_time,
-                    end_time: course.end_time,
+                    // start_time: course.start_time,
+                    // end_time: course.end_time,
                     enrolled_number: course.enrolled_number,
-                    image: course.image,
-                    total_duration: course.total_duration,
-                    schedule: course.schedule,
-                    rating: course.rating,
-                    instructor: course.instructor,
-                    reviews: course.reviews,
+                    image: course.image||"images/courses/course_1.png",
+                    total_duration: course.total_duration||"4h 45m",
+                    schedule: course.schedule || "9:00 AM - 1:00 PM",
+                    rating: course.rating || {
+                        "value": 4.8,
+                        "count": 1250
+                    },
+                    instructor: course.instructor||{
+                        "name": "Dr. Sarah Williams",
+                        "image": "images/courses/instructor_1.png",
+                        "id": 101
+                    },
+                    reviews: course.reviews||{
+                        "name": "Alice Johnson",
+                        "rating": 5,
+                        "review": "Very informative and well-structured."
+                    },
                 }));
                 setCourses(transformedCourses);
+                setCategoryName(transformedCourses[0].category);
             } else {
                 setError("No courses found for this category.");
             }
@@ -268,8 +277,8 @@ const CategoryDesc = () => {
                 <p className="text-center text-red-500 mb-8">{error}</p>
             ) : (
                 <div style={{ padding: "20px" }}>
-                    <h2>Courses in This Category</h2>
-                    <Courses courses={courses} showMore={false} />
+                    <h2 className="mb-5 font-bold text-xl">Courses in This Category</h2>
+                    <Courses courses={courses} showMore={false} title={categoryName}/>
                 </div>)}
         </div>
     );

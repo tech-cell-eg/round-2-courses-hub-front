@@ -73,8 +73,8 @@ export interface ICourse1 {
   skill_level: string;
   price: string;
   course_day: string[];
-  start_time: string;
-  end_time: string;
+  // start_time: string;
+  // end_time: string;
   enrolled_number: number;
   image: string;
   total_duration: string;
@@ -84,7 +84,7 @@ export interface ICourse1 {
   reviews: Review[];
 }
 export interface ICoursesData {
-  courses: ICourse[];
+  courses: ICourse1[];
 }
 
 export interface ICategory {
