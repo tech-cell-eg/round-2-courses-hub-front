@@ -76,6 +76,12 @@ export interface ICourse1 {
   start_time: string;
   end_time: string;
   enrolled_number: number;
+  image: string;
+  total_duration: string;
+  schedule: string;
+  rating: Rating;
+  instructor: Instructor;
+  reviews: Review[];
 }
 export interface ICoursesData {
   courses: ICourse[];

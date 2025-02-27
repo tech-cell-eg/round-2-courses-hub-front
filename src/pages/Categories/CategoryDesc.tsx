@@ -1,6 +1,8 @@
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import categories from "../../api/categories";
+import data from "../../api/courses.json";
+import { ICoursesData } from "../../types/types";
 import { ICategory } from "../../types/types";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
@@ -35,7 +37,30 @@ const CategoryDesc = () => {
                 `https://round2-courses-hub.digital-vision-solutions.com/api/course/${id}`
             );
             if (response.data.status === 200 && response.data.data.length > 0) {
-                setCourses(response.data.data);
+                const coursesData: ICoursesData = data;
+                console.log(coursesData)
+                const transformedCourses = response.data.data.map((course: ICourse1) => ({
+                    id: course.id,
+                    name: course.name,
+                    course_description: course.course_description,
+                    what_will_i_learn: course.what_will_i_learn,
+                    category: course.category,
+                    language: course.language,
+                    curriculum: course.curriculum,
+                    skill_level: course.skill_level,
+                    price: course.price,
+                    course_day: course.course_day,
+                    start_time: course.start_time,
+                    end_time: course.end_time,
+                    enrolled_number: course.enrolled_number,
+                    image: course.image,
+                    total_duration: course.total_duration,
+                    schedule: course.schedule,
+                    rating: course.rating,
+                    instructor: course.instructor,
+                    reviews: course.reviews,
+                }));
+                setCourses(transformedCourses);
             } else {
                 setError("No courses found for this category.");
             }
@@ -45,11 +70,11 @@ const CategoryDesc = () => {
             setLoading(false);
         }
     };
-        useEffect(() => {
-            
-            fetchCoursesByCategory();
-        }, [id]);
-    
+    useEffect(() => {
+
+        fetchCoursesByCategory();
+    }, [id]);
+
     return (
         <div>
             <div className="py-20 grid grid-cols-7 gap-10">
@@ -199,17 +224,16 @@ const CategoryDesc = () => {
                         <ul className="flex flex-col gap-2">
                             {categories.map((category) => (
                                 <Link
-                                key={category.id}
+                                    key={category.id}
                                     to={`/categories/${category.id}`}
                                     className="scale"
                                 >
                                     <li
                                         key={category.id}
-                                        className={`${
-                                            category.id + "" === id
+                                        className={`${category.id + "" === id
                                                 ? "bg-[#7768E5] text-white"
                                                 : ""
-                                        } hover:bg-[#7768E5] hover:text-white w-full h-full  p-2 border border-[#E2E1E1] duration-300 transition-all flex justify-between items-center gap-1`}
+                                            } hover:bg-[#7768E5] hover:text-white w-full h-full  p-2 border border-[#E2E1E1] duration-300 transition-all flex justify-between items-center gap-1`}
                                     >
                                         {category.name}
                                         <MdKeyboardArrowRight />
@@ -239,10 +263,10 @@ const CategoryDesc = () => {
                 </div>
             </div>
             {loading ? (
-                    <p className="text-center text-gray-500">جارٍ تحميل الرحلات...</p>
-                ) : error ? (
-                    <p className="text-center text-red-500 mb-8">{error}</p>
-                ) : (
+                <p className="text-center text-gray-500">جارٍ تحميل الرحلات...</p>
+            ) : error ? (
+                <p className="text-center text-red-500 mb-8">{error}</p>
+            ) : (
                 <div style={{ padding: "20px" }}>
                     <h2>Courses in This Category</h2>
                     <Courses courses={courses} showMore={false} />

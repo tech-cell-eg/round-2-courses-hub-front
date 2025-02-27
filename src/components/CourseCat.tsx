@@ -12,9 +12,9 @@ interface CoursesProps {
 }
 
 const Courses = ({ courses = [], showMore = true }: CoursesProps) => {
-   
-    const [limit, setLimit] = useState(6);
 
+    const [limit, setLimit] = useState(6);
+    
     const showMoreCourses = () => {
         if (limit >= courses.length) return;
         setLimit((prev) =>
