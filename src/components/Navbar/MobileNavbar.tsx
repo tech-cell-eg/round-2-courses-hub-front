@@ -1,4 +1,5 @@
-import NavItem from "./NavLink";
+import NavBtn from './NavBtn';
+import NavItem from './NavLink';
 
 interface MobileNavbarProps {
   closeMenu: () => void;
@@ -24,7 +25,9 @@ function MobileNavbar({ closeMenu }: MobileNavbarProps) {
 
             {/* Authentication */}
             <NavItem href="/auth/student-registration">Student Registration</NavItem>
-            <NavItem href="/auth/instructor-registration">Instructor Registration</NavItem>
+            <NavItem href="/auth/instructor-registration">
+              Instructor Registration
+            </NavItem>
             <NavItem href="/auth/login">Login</NavItem>
             <NavItem href="/auth/register">Register</NavItem>
 
@@ -43,6 +46,8 @@ function MobileNavbar({ closeMenu }: MobileNavbarProps) {
 
         <NavItem href="/blog">Blog</NavItem>
         <NavItem href="/contact-us">Contact</NavItem>
+
+        <NavBtn />
       </ul>
     </div>
   );
