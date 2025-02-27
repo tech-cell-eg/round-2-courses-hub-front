@@ -38,8 +38,8 @@ const StudentRegistration = () => {
         const response = await axios.post(API_URL, values);
         console.log("Registration Successful:", response.data);
 
-        if (response.data.token) {
-          setToken(response.data.token);
+        if (response.data.data.token) {
+          setToken(response.data.data.token, 'student');
         }
 
         toast.success("Account Created!", {
